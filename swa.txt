@@ -1,0 +1,1048 @@
+> SEEDING DONE
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.15961046020329558 0.8403895397967044
+
+Val: 100%|██████████| 171/171 [15:20<00:00,  5.38s/it, eval_loss=0.0911, gpu_mem=7.78 GB]
+Valid loss:0.0911
+Val metric mean prob: 0.2682
+Best metric at: 0.4667 0.4420  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+[I 2023-02-17 03:35:37,036] Trial 0 finished with value: 0.46666666666666673 and parameters: {'a1': 0.15961046020329558}. Best is trial 0 with value: 0.46666666666666673.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.3063094775133708 0.6936905224866292
+
+Val: 100%|██████████| 171/171 [04:19<00:00,  1.52s/it, eval_loss=0.0910, gpu_mem=7.78 GB]
+Valid loss:0.0910
+Val metric mean prob: 0.2687
+Best metric at: 0.4690 0.4640  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+[I 2023-02-17 03:40:22,870] Trial 1 finished with value: 0.46896551724137925 and parameters: {'a1': 0.3063094775133708}. Best is trial 1 with value: 0.46896551724137925.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.07079568642027076 0.9292043135797292
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0913, gpu_mem=7.78 GB]
+Valid loss:0.0913
+Val metric mean prob: 0.2659
+Best metric at: 0.4588 0.3800  0.7100
+Cf: [[4631   40]
+ [  52   39]]
+[I 2023-02-17 03:43:40,529] Trial 2 finished with value: 0.45882352941176474 and parameters: {'a1': 0.07079568642027076}. Best is trial 1 with value: 0.46896551724137925.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.46066313477678944 0.5393368652232106
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0908, gpu_mem=7.78 GB]
+Valid loss:0.0908
+Val metric mean prob: 0.2656
+Best metric at: 0.4789 0.4770  0.6850
+Cf: [[4654   17]
+ [  57   34]]
+[I 2023-02-17 03:47:00,940] Trial 3 finished with value: 0.4788732394366198 and parameters: {'a1': 0.46066313477678944}. Best is trial 3 with value: 0.4788732394366198.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.8285483167488757 0.17145168325112425
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0899, gpu_mem=7.78 GB]
+Valid loss:0.0899
+Val metric mean prob: 0.2492
+Best metric at: 0.4755 0.4500  0.6849
+Cf: [[4653   18]
+ [  57   34]]
+[I 2023-02-17 03:50:21,542] Trial 4 finished with value: 0.4755244755244756 and parameters: {'a1': 0.8285483167488757}. Best is trial 3 with value: 0.4788732394366198.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.9184571067948968 0.08154289320510322
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0898, gpu_mem=7.78 GB]
+Valid loss:0.0898
+Val metric mean prob: 0.2431
+Best metric at: 0.4658 0.4310  0.6846
+Cf: [[4650   21]
+ [  57   34]]
+[I 2023-02-17 03:53:36,522] Trial 5 finished with value: 0.4657534246575342 and parameters: {'a1': 0.9184571067948968}. Best is trial 3 with value: 0.4788732394366198.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.7224492046326887 0.2775507953673113
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0903, gpu_mem=7.78 GB]
+Valid loss:0.0903
+Val metric mean prob: 0.2549
+Best metric at: 0.4832 0.4470  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 03:56:51,540] Trial 6 finished with value: 0.4832214765100671 and parameters: {'a1': 0.7224492046326887}. Best is trial 6 with value: 0.4832214765100671.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.7631262974822319 0.23687370251776807
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0902, gpu_mem=7.78 GB]
+Valid loss:0.0902
+Val metric mean prob: 0.2528
+Best metric at: 0.4828 0.4560  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 04:00:06,223] Trial 7 finished with value: 0.4827586206896552 and parameters: {'a1': 0.7631262974822319}. Best is trial 6 with value: 0.4832214765100671.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.27382096514274934 0.7261790348572507
+
+Val: 100%|██████████| 171/171 [03:00<00:00,  1.06s/it, eval_loss=0.0910, gpu_mem=7.78 GB]
+Valid loss:0.0910
+Val metric mean prob: 0.2689
+Best metric at: 0.4658 0.4510  0.6846
+Cf: [[4650   21]
+ [  57   34]]
+[I 2023-02-17 04:03:18,090] Trial 8 finished with value: 0.4657534246575342 and parameters: {'a1': 0.27382096514274934}. Best is trial 6 with value: 0.4832214765100671.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6411487062295695 0.35885129377043046
+
+Val: 100%|██████████| 171/171 [03:06<00:00,  1.09s/it, eval_loss=0.0905, gpu_mem=7.78 GB]
+Valid loss:0.0905
+Val metric mean prob: 0.2590
+Best metric at: 0.4898 0.4530  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:06:35,699] Trial 9 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6411487062295695}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5945645740137003 0.40543542598629967
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2606
+Best metric at: 0.4898 0.4560  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:09:50,070] Trial 10 finished with value: 0.48979591836734687 and parameters: {'a1': 0.5945645740137003}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5912964290611797 0.40870357093882026
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2608
+Best metric at: 0.4898 0.4570  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:13:04,427] Trial 11 finished with value: 0.48979591836734687 and parameters: {'a1': 0.5912964290611797}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6046733275307165 0.39532667246928355
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.08s/it, eval_loss=0.0906, gpu_mem=7.78 GB]
+Valid loss:0.0906
+Val metric mean prob: 0.2602
+Best metric at: 0.4898 0.4560  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:16:19,915] Trial 12 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6046733275307165}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.46592143599044694 0.5340785640095531
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0908, gpu_mem=7.78 GB]
+Valid loss:0.0908
+Val metric mean prob: 0.2654
+Best metric at: 0.4789 0.4770  0.6850
+Cf: [[4654   17]
+ [  57   34]]
+[I 2023-02-17 04:19:34,403] Trial 13 finished with value: 0.4788732394366198 and parameters: {'a1': 0.46592143599044694}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6481791361434424 0.35182086385655764
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.08s/it, eval_loss=0.0905, gpu_mem=7.78 GB]
+Valid loss:0.0905
+Val metric mean prob: 0.2586
+Best metric at: 0.4898 0.4530  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:22:49,662] Trial 14 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6481791361434424}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.964568882492399 0.03543111750760097
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.09s/it, eval_loss=0.0897, gpu_mem=7.78 GB]
+Valid loss:0.0897
+Val metric mean prob: 0.2398
+Best metric at: 0.4658 0.4260  0.6846
+Cf: [[4650   21]
+ [  57   34]]
+[I 2023-02-17 04:26:06,701] Trial 15 finished with value: 0.4657534246575342 and parameters: {'a1': 0.964568882492399}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5225924313489088 0.47740756865109124
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2636
+Best metric at: 0.4800 0.4460  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+[I 2023-02-17 04:29:22,225] Trial 16 finished with value: 0.48 and parameters: {'a1': 0.5225924313489088}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6975737350681557 0.3024262649318443
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0903, gpu_mem=7.78 GB]
+Valid loss:0.0903
+Val metric mean prob: 0.2563
+Best metric at: 0.4898 0.4510  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:32:35,809] Trial 17 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6975737350681557}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.843881836399474 0.156118163600526
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.08s/it, eval_loss=0.0900, gpu_mem=7.78 GB]
+Valid loss:0.0900
+Val metric mean prob: 0.2482
+Best metric at: 0.4755 0.4500  0.6849
+Cf: [[4653   18]
+ [  57   34]]
+[I 2023-02-17 04:35:51,548] Trial 18 finished with value: 0.4755244755244756 and parameters: {'a1': 0.843881836399474}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5394781467916512 0.4605218532083488
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2631
+Best metric at: 0.4832 0.4540  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 04:39:06,167] Trial 19 finished with value: 0.4832214765100671 and parameters: {'a1': 0.5394781467916512}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.3798338419610407 0.6201661580389592
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.09s/it, eval_loss=0.0909, gpu_mem=7.78 GB]
+Valid loss:0.0909
+Val metric mean prob: 0.2676
+Best metric at: 0.4722 0.4710  0.6848
+Cf: [[4652   19]
+ [  57   34]]
+[I 2023-02-17 04:42:23,628] Trial 20 finished with value: 0.47222222222222227 and parameters: {'a1': 0.3798338419610407}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5938356158030484 0.40616438419695156
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.08s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2607
+Best metric at: 0.4898 0.4560  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:45:40,603] Trial 21 finished with value: 0.48979591836734687 and parameters: {'a1': 0.5938356158030484}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6405479071674199 0.35945209283258006
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0905, gpu_mem=7.78 GB]
+Valid loss:0.0905
+Val metric mean prob: 0.2591
+Best metric at: 0.4898 0.4530  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 04:48:55,629] Trial 22 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6405479071674199}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.5566923712020104 0.4433076287979896
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0907, gpu_mem=7.78 GB]
+Valid loss:0.0907
+Val metric mean prob: 0.2624
+Best metric at: 0.4865 0.4560  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 04:52:10,181] Trial 23 finished with value: 0.48648648648648646 and parameters: {'a1': 0.5566923712020104}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.7068650646103731 0.29313493538962687
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0903, gpu_mem=7.78 GB]
+Valid loss:0.0903
+Val metric mean prob: 0.2559
+Best metric at: 0.4832 0.4470  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 04:55:25,756] Trial 24 finished with value: 0.4832214765100671 and parameters: {'a1': 0.7068650646103731}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.47288703521156134 0.5271129647884387
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0908, gpu_mem=7.78 GB]
+Valid loss:0.0908
+Val metric mean prob: 0.2651
+Best metric at: 0.4789 0.4780  0.6850
+Cf: [[4654   17]
+ [  57   34]]
+[I 2023-02-17 04:58:45,965] Trial 25 finished with value: 0.4788732394366198 and parameters: {'a1': 0.47288703521156134}. Best is trial 9 with value: 0.48979591836734687.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+0.6102827168505991 0.3897172831494009
+
+
+
+
+NEW ENSEMBLE
+[I 2023-02-17 05:08:14,185] A new study created in memory with name: no-name-0589810f-5d67-401f-aeae-a8a86f0cbd16
+> SEEDING DONE
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.15961046020329558 0.2544228545281512 0.03713340310827953 0.5488332821602737
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.09s/it, eval_loss=0.0857, gpu_mem=8.68 GB]
+Valid loss:0.0857
+Val metric mean prob: 0.2401
+Best metric at: 0.4379 0.3910  0.6989
+Cf: [[4630   41]
+ [  54   37]]
+[I 2023-02-17 05:11:46,375] Trial 0 finished with value: 0.4378698224852071 and parameters: {'a1': 0.15961046020329558, 'a2': 0.2544228545281512, 'a3': 0.03713340310827953}. Best is trial 0 with value: 0.4378698224852071.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.46066313477678944 0.4497959605992361 0.08214285984855442 0.00739804477542004
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.08s/it, eval_loss=0.0895, gpu_mem=8.68 GB]
+Valid loss:0.0895
+Val metric mean prob: 0.2627
+Best metric at: 0.4832 0.4640  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 05:15:07,317] Trial 1 finished with value: 0.4832214765100671 and parameters: {'a1': 0.46066313477678944, 'a2': 0.4497959605992361, 'a3': 0.08214285984855442}. Best is trial 1 with value: 0.4832214765100671.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7224492046326887 0.21273659480919951 0.017836821543291383 0.04697737901482041
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0894, gpu_mem=8.68 GB]
+Valid loss:0.0894
+Val metric mean prob: 0.2523
+Best metric at: 0.4932 0.4530  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 05:18:17,468] Trial 2 finished with value: 0.49315068493150693 and parameters: {'a1': 0.7224492046326887, 'a2': 0.21273659480919951, 'a3': 0.017836821543291383}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6411487062295695 0.03422970482875175 0.026616355620762623 0.29800523332091605
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0870, gpu_mem=8.68 GB]
+Valid loss:0.0870
+Val metric mean prob: 0.2395
+Best metric at: 0.4578 0.4060  0.7048
+Cf: [[4634   37]
+ [  53   38]]
+[I 2023-02-17 05:21:26,402] Trial 3 finished with value: 0.4578313253012049 and parameters: {'a1': 0.6411487062295695, 'a2': 0.03422970482875175, 'a3': 0.026616355620762623}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.587821478386747 0.1417652484315948 0.2664263714245423 0.003986901757115913
+
+Val: 100%|██████████| 171/171 [02:54<00:00,  1.02s/it, eval_loss=0.0891, gpu_mem=8.68 GB]
+Valid loss:0.0891
+Val metric mean prob: 0.2391
+Best metric at: 0.4571 0.4970  0.6740
+Cf: [[4654   17]
+ [  59   32]]
+[I 2023-02-17 05:24:31,845] Trial 4 finished with value: 0.4571428571428572 and parameters: {'a1': 0.587821478386747, 'a2': 0.1417652484315948, 'a3': 0.2664263714245423}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6239437421051638 0.25599198403307805 0.06615702538045973 0.053907248481298436
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.05s/it, eval_loss=0.0892, gpu_mem=8.68 GB]
+Valid loss:0.0892
+Val metric mean prob: 0.2536
+Best metric at: 0.4768 0.4520  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+[I 2023-02-17 05:27:42,340] Trial 5 finished with value: 0.4768211920529801 and parameters: {'a1': 0.6239437421051638, 'a2': 0.25599198403307805, 'a3': 0.06615702538045973}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.273482856730494 0.2713701502983964 0.10194149051881891 0.3532055024522907
+
+Val: 100%|██████████| 171/171 [02:54<00:00,  1.02s/it, eval_loss=0.0871, gpu_mem=8.68 GB]
+Valid loss:0.0871
+Val metric mean prob: 0.2464
+Best metric at: 0.4500 0.4370  0.6943
+Cf: [[4638   33]
+ [  55   36]]
+[I 2023-02-17 05:30:52,895] Trial 6 finished with value: 0.44999999999999996 and parameters: {'a1': 0.273482856730494, 'a2': 0.2713701502983964, 'a3': 0.10194149051881891}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.19271374834959246 0.31552260370100615 0.09552324067193671 0.3962404072774647
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0868, gpu_mem=8.68 GB]
+Valid loss:0.0868
+Val metric mean prob: 0.2475
+Best metric at: 0.4528 0.4400  0.6944
+Cf: [[4639   32]
+ [  55   36]]
+[I 2023-02-17 05:34:09,799] Trial 7 finished with value: 0.4528301886792453 and parameters: {'a1': 0.19271374834959246, 'a2': 0.31552260370100615, 'a3': 0.09552324067193671}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6086927127280202 0.344672042630984 0.028740479555570953 0.01789476508542488
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.05s/it, eval_loss=0.0899, gpu_mem=8.68 GB]
+Valid loss:0.0899
+Val metric mean prob: 0.2588
+Best metric at: 0.4898 0.4580  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 05:37:22,653] Trial 8 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6086927127280202, 'a2': 0.344672042630984, 'a3': 0.028740479555570953}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.2580565653204782 0.1340562421940268 0.49563065247646815 0.1122565400090268
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.04s/it, eval_loss=0.0858, gpu_mem=8.68 GB]
+Valid loss:0.0858
+Val metric mean prob: 0.2335
+Best metric at: 0.4648 0.4930  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+[I 2023-02-17 05:40:32,165] Trial 9 finished with value: 0.4647887323943662 and parameters: {'a1': 0.2580565653204782, 'a2': 0.1340562421940268, 'a3': 0.49563065247646815}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.905619849322766 0.002913020243613229 0.0025381909473820158 0.0889289394862388
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2396
+Best metric at: 0.4755 0.4550  0.6849
+Cf: [[4653   18]
+ [  57   34]]
+[I 2023-02-17 05:43:44,623] Trial 10 finished with value: 0.4755244755244756 and parameters: {'a1': 0.905619849322766, 'a2': 0.002913020243613229, 'a3': 0.0025381909473820158}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.8142382361191027 0.08559432843704165 0.014474450770281717 0.0856929846735739
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.02s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2452
+Best metric at: 0.4828 0.4490  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 05:46:55,695] Trial 11 finished with value: 0.4827586206896552 and parameters: {'a1': 0.8142382361191027, 'a2': 0.08559432843704165, 'a3': 0.014474450770281717}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7852785258689955 0.09911698920714143 0.026526316377309494 0.08907816854655358
+
+Val: 100%|██████████| 171/171 [02:53<00:00,  1.02s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2457
+Best metric at: 0.4828 0.4530  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 05:50:06,118] Trial 12 finished with value: 0.4827586206896552 and parameters: {'a1': 0.7852785258689955, 'a2': 0.09911698920714143, 'a3': 0.026526316377309494}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.9760835933877983 0.0012090477979000234 0.0009270954662445197 0.021780263348057195
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0894, gpu_mem=8.68 GB]
+Valid loss:0.0894
+Val metric mean prob: 0.2378
+Best metric at: 0.4648 0.4440  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+[I 2023-02-17 05:53:12,936] Trial 13 finished with value: 0.4647887323943662 and parameters: {'a1': 0.9760835933877983, 'a2': 0.0012090477979000234, 'a3': 0.0009270954662445197}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.4410394353327726 0.38078351904201935 0.03909618901689371 0.13908085660831426
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2596
+Best metric at: 0.4865 0.4640  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 05:56:25,877] Trial 14 finished with value: 0.48648648648648646 and parameters: {'a1': 0.4410394353327726, 'a2': 0.38078351904201935, 'a3': 0.03909618901689371}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7490325755761645 0.17920155907495475 0.015698163353281825 0.05606770199559889
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0893, gpu_mem=8.68 GB]
+Valid loss:0.0893
+Val metric mean prob: 0.2503
+Best metric at: 0.4828 0.4520  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 05:59:46,619] Trial 15 finished with value: 0.4827586206896552 and parameters: {'a1': 0.7490325755761645, 'a2': 0.17920155907495475, 'a3': 0.015698163353281825}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5269146605771939 0.19858745527261193 0.062227630941119536 0.2122702532090746
+
+Val: 100%|██████████| 171/171 [02:52<00:00,  1.01s/it, eval_loss=0.0879, gpu_mem=8.68 GB]
+Valid loss:0.0879
+Val metric mean prob: 0.2489
+Best metric at: 0.4615 0.4470  0.6947
+Cf: [[4642   29]
+ [  55   36]]
+[I 2023-02-17 06:02:54,779] Trial 16 finished with value: 0.46153846153846156 and parameters: {'a1': 0.5269146605771939, 'a2': 0.19858745527261193, 'a3': 0.062227630941119536}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7225380990717758 0.19697065750128784 0.012351572894888477 0.06813967053204789
+
+Val: 100%|██████████| 171/171 [03:05<00:00,  1.08s/it, eval_loss=0.0892, gpu_mem=8.68 GB]
+Valid loss:0.0892
+Val metric mean prob: 0.2516
+Best metric at: 0.4865 0.4480  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 06:06:13,588] Trial 17 finished with value: 0.48648648648648646 and parameters: {'a1': 0.7225380990717758, 'a2': 0.19697065750128784, 'a3': 0.012351572894888477}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.36743796430698455 0.6022028631852239 0.00584853205094618 0.02451064045684545
+
+Val: 100%|██████████| 171/171 [03:00<00:00,  1.05s/it, eval_loss=0.0906, gpu_mem=8.68 GB]
+Valid loss:0.0906
+Val metric mean prob: 0.2675
+Best metric at: 0.4795 0.4620  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+[I 2023-02-17 06:09:25,267] Trial 18 finished with value: 0.4794520547945205 and parameters: {'a1': 0.36743796430698455, 'a2': 0.6022028631852239, 'a3': 0.00584853205094618}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6788683460707272 0.1700814686051385 0.04424699442704532 0.10680319089708895
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2494
+Best metric at: 0.4828 0.4610  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 06:12:36,467] Trial 19 finished with value: 0.4827586206896552 and parameters: {'a1': 0.6788683460707272, 'a2': 0.1700814686051385, 'a3': 0.04424699442704532}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5279738533955969 0.22623774943867933 0.048105670408215416 0.19768272675750836
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0882, gpu_mem=8.68 GB]
+Valid loss:0.0882
+Val metric mean prob: 0.2511
+Best metric at: 0.4737 0.4530  0.6951
+Cf: [[4646   25]
+ [  55   36]]
+[I 2023-02-17 06:15:48,791] Trial 20 finished with value: 0.4736842105263158 and parameters: {'a1': 0.5279738533955969, 'a2': 0.22623774943867933, 'a3': 0.048105670408215416}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.4288141947813478 0.3404349652354119 0.04397453382415413 0.18677630615908625
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2566
+Best metric at: 0.4865 0.4630  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 06:19:01,779] Trial 21 finished with value: 0.48648648648648646 and parameters: {'a1': 0.4288141947813478, 'a2': 0.3404349652354119, 'a3': 0.04397453382415413}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.08233233084471386 0.380312873155902 0.13535873997703654 0.40199605602234756
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0866, gpu_mem=8.68 GB]
+Valid loss:0.0866
+Val metric mean prob: 0.2482
+Best metric at: 0.4444 0.4360  0.6941
+Cf: [[4636   35]
+ [  55   36]]
+[I 2023-02-17 06:22:12,409] Trial 22 finished with value: 0.4444444444444444 and parameters: {'a1': 0.08233233084471386, 'a2': 0.380312873155902, 'a3': 0.13535873997703654}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5745963141428589 0.2986550939814485 0.022953421793495566 0.10379517008219698
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.04s/it, eval_loss=0.0892, gpu_mem=8.68 GB]
+Valid loss:0.0892
+Val metric mean prob: 0.2565
+Best metric at: 0.4865 0.4610  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 06:25:22,464] Trial 23 finished with value: 0.48648648648648646 and parameters: {'a1': 0.5745963141428589, 'a2': 0.2986550939814485, 'a3': 0.022953421793495566}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.4259623395171376 0.38762901735895744 0.027693950575786164 0.15871469254811882
+
+Val: 100%|██████████| 171/171 [02:54<00:00,  1.02s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2597
+Best metric at: 0.4865 0.4610  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 06:28:32,657] Trial 24 finished with value: 0.48648648648648646 and parameters: {'a1': 0.4259623395171376, 'a2': 0.38762901735895744, 'a3': 0.027693950575786164}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6717021769797444 0.21822666750494285 0.03308809180026558 0.07698306371504712
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0891, gpu_mem=8.68 GB]
+Valid loss:0.0891
+Val metric mean prob: 0.2525
+Best metric at: 0.4898 0.4530  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 06:31:56,935] Trial 25 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6717021769797444, 'a2': 0.21822666750494285, 'a3': 0.03308809180026558}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6752835891838135 0.2143633632688791 0.029485224834044133 0.0808678227132633
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2526
+Best metric at: 0.4898 0.4510  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 06:35:09,683] Trial 26 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6752835891838135, 'a2': 0.2143633632688791, 'a3': 0.029485224834044133}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.8617016917653668 0.05159603988400277 0.019948402812324822 0.06675386553830559
+
+Val: 100%|██████████| 171/171 [02:54<00:00,  1.02s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2425
+Best metric at: 0.4828 0.4490  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 06:38:20,716] Trial 27 finished with value: 0.4827586206896552 and parameters: {'a1': 0.8617016917653668, 'a2': 0.05159603988400277, 'a3': 0.019948402812324822}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7176161878608311 0.1498699270770839 0.013281120177216804 0.11923276488486814
+
+Val: 100%|██████████| 171/171 [03:03<00:00,  1.07s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2489
+Best metric at: 0.4828 0.4510  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 06:41:35,672] Trial 28 finished with value: 0.4827586206896552 and parameters: {'a1': 0.7176161878608311, 'a2': 0.1498699270770839, 'a3': 0.013281120177216804}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7965793864446846 0.11383166467236272 0.03251010787514845 0.05707884100780421
+
+Val: 100%|██████████| 171/171 [02:53<00:00,  1.01s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2463
+Best metric at: 0.4828 0.4580  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 06:44:44,688] Trial 29 finished with value: 0.4827586206896552 and parameters: {'a1': 0.7965793864446846, 'a2': 0.11383166467236272, 'a3': 0.03251010787514845}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.687894562595644 0.17230004610496882 0.037788825262103476 0.10201656603728373
+
+Val: 100%|██████████| 171/171 [03:04<00:00,  1.08s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2498
+Best metric at: 0.4828 0.4530  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 06:48:01,498] Trial 30 finished with value: 0.4827586206896552 and parameters: {'a1': 0.687894562595644, 'a2': 0.17230004610496882, 'a3': 0.037788825262103476}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6409033205470799 0.22506556753993784 0.032335228626389795 0.10169588328659249
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2528
+Best metric at: 0.4932 0.4560  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 06:51:14,073] Trial 31 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6409033205470799, 'a2': 0.22506556753993784, 'a3': 0.032335228626389795}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6096338939438778 0.23285028180349548 0.019312323315634435 0.1382035009369923
+
+Val: 100%|██████████| 171/171 [03:02<00:00,  1.07s/it, eval_loss=0.0888, gpu_mem=8.68 GB]
+Valid loss:0.0888
+Val metric mean prob: 0.2530
+Best metric at: 0.4898 0.4590  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 06:54:28,119] Trial 32 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6096338939438778, 'a2': 0.23285028180349548, 'a3': 0.019312323315634435}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5708055308644535 0.2455776843214195 0.05000809215528645 0.13360869265884054
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2531
+Best metric at: 0.4832 0.4560  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 06:57:36,498] Trial 33 finished with value: 0.4832214765100671 and parameters: {'a1': 0.5708055308644535, 'a2': 0.2455776843214195, 'a3': 0.05000809215528645}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5125848904326823 0.2667946000462587 0.057297246673711485 0.1633232628473475
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0885, gpu_mem=8.68 GB]
+Valid loss:0.0885
+Val metric mean prob: 0.2533
+Best metric at: 0.4768 0.4560  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+[I 2023-02-17 07:00:48,782] Trial 34 finished with value: 0.4768211920529801 and parameters: {'a1': 0.5125848904326823, 'a2': 0.2667946000462587, 'a3': 0.057297246673711485}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6579535371651923 0.21796468039703992 0.03317515563993806 0.09090662679782968
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2526
+Best metric at: 0.4898 0.4520  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 07:03:57,786] Trial 35 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6579535371651923, 'a2': 0.21796468039703992, 'a3': 0.03317515563993806}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6433998867396207 0.19339851487487364 0.009561379768878329 0.15364021861662736
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2511
+Best metric at: 0.4898 0.4540  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 07:07:04,924] Trial 36 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6433998867396207, 'a2': 0.19339851487487364, 'a3': 0.009561379768878329}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.74390119912366 0.1489925396993261 0.02291827239553164 0.08418798878148222
+
+Val: 100%|██████████| 171/171 [02:53<00:00,  1.02s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2488
+Best metric at: 0.4828 0.4510  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+[I 2023-02-17 07:10:13,119] Trial 37 finished with value: 0.4827586206896552 and parameters: {'a1': 0.74390119912366, 'a2': 0.1489925396993261, 'a3': 0.02291827239553164}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6501593395814463 0.24111562061099465 0.0335996765389833 0.07512536326857572
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.04s/it, eval_loss=0.0891, gpu_mem=8.68 GB]
+Valid loss:0.0891
+Val metric mean prob: 0.2537
+Best metric at: 0.4932 0.4590  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:13:23,218] Trial 38 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6501593395814463, 'a2': 0.24111562061099465, 'a3': 0.0335996765389833}. Best is trial 2 with value: 0.49315068493150693.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6034479666747211 0.2641882180885736 0.008308856037414426 0.12405495919929084
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2549
+Best metric at: 0.4966 0.4650  0.6959
+Cf: [[4653   18]
+ [  55   36]]
+[I 2023-02-17 07:16:32,422] Trial 39 finished with value: 0.4965517241379309 and parameters: {'a1': 0.6034479666747211, 'a2': 0.2641882180885736, 'a3': 0.008308856037414426}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5686316166575106 0.24766370919659655 0.001663862656474024 0.1820408114894188
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2537
+Best metric at: 0.4832 0.4510  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 07:19:40,166] Trial 40 finished with value: 0.4832214765100671 and parameters: {'a1': 0.5686316166575106, 'a2': 0.24766370919659655, 'a3': 0.001663862656474024}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6065133823584976 0.2721723052091123 0.009099609396347257 0.11221470303604285
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.05s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2554
+Best metric at: 0.4932 0.4600  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:22:53,562] Trial 41 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6065133823584976, 'a2': 0.2721723052091123, 'a3': 0.009099609396347257}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6309174241376543 0.23623131229540428 0.008882514586573999 0.12396874898036744
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2536
+Best metric at: 0.4932 0.4560  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:26:02,445] Trial 42 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6309174241376543, 'a2': 0.23623131229540428, 'a3': 0.008882514586573999}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6028948244960181 0.2673551812856887 0.01723393898044477 0.11251605523784848
+
+Val: 100%|██████████| 171/171 [02:55<00:00,  1.03s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2552
+Best metric at: 0.4932 0.4630  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:29:15,063] Trial 43 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6028948244960181, 'a2': 0.2673551812856887, 'a3': 0.01723393898044477}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.48951111533843084 0.29149678026352793 0.054465553518997636 0.1645265508790436
+
+Val: 100%|██████████| 171/171 [02:59<00:00,  1.05s/it, eval_loss=0.0886, gpu_mem=8.68 GB]
+Valid loss:0.0886
+Val metric mean prob: 0.2546
+Best metric at: 0.4865 0.4660  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 07:32:29,842] Trial 44 finished with value: 0.48648648648648646 and parameters: {'a1': 0.48951111533843084, 'a2': 0.29149678026352793, 'a3': 0.054465553518997636}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7498563823575459 0.207391420579879 0.005045180156012156 0.03770701690656292
+
+Val: 100%|██████████| 171/171 [02:52<00:00,  1.01s/it, eval_loss=0.0896, gpu_mem=8.68 GB]
+Valid loss:0.0896
+Val metric mean prob: 0.2520
+Best metric at: 0.4898 0.4510  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 07:35:38,498] Trial 45 finished with value: 0.48979591836734687 and parameters: {'a1': 0.7498563823575459, 'a2': 0.207391420579879, 'a3': 0.005045180156012156}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5549589022342347 0.256533717153129 0.019565436040325106 0.16894194457231118
+
+Val: 100%|██████████| 171/171 [02:56<00:00,  1.03s/it, eval_loss=0.0885, gpu_mem=8.68 GB]
+Valid loss:0.0885
+Val metric mean prob: 0.2541
+Best metric at: 0.4932 0.4630  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:38:46,702] Trial 46 finished with value: 0.49315068493150693 and parameters: {'a1': 0.5549589022342347, 'a2': 0.256533717153129, 'a3': 0.019565436040325106}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6192991419627888 0.2357234468935859 0.015117047401007937 0.12986036374261736
+
+Val: 100%|██████████| 171/171 [02:53<00:00,  1.01s/it, eval_loss=0.0888, gpu_mem=8.68 GB]
+Valid loss:0.0888
+Val metric mean prob: 0.2535
+Best metric at: 0.4966 0.4650  0.6959
+Cf: [[4653   18]
+ [  55   36]]
+[I 2023-02-17 07:41:56,540] Trial 47 finished with value: 0.4965517241379309 and parameters: {'a1': 0.6192991419627888, 'a2': 0.2357234468935859, 'a3': 0.015117047401007937}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7014859747034802 0.23039501842711313 0.01185435907381852 0.05626464779558817
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0894, gpu_mem=8.68 GB]
+Valid loss:0.0894
+Val metric mean prob: 0.2533
+Best metric at: 0.4932 0.4560  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:45:13,413] Trial 48 finished with value: 0.49315068493150693 and parameters: {'a1': 0.7014859747034802, 'a2': 0.23039501842711313, 'a3': 0.01185435907381852}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6343944075293313 0.18826153976413193 0.040077482428522306 0.13726657027801448
+
+Val: 100%|██████████| 171/171 [02:57<00:00,  1.04s/it, eval_loss=0.0885, gpu_mem=8.68 GB]
+Valid loss:0.0885
+Val metric mean prob: 0.2503
+Best metric at: 0.4762 0.4570  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+[I 2023-02-17 07:48:23,028] Trial 49 finished with value: 0.4761904761904762 and parameters: {'a1': 0.6343944075293313, 'a2': 0.18826153976413193, 'a3': 0.040077482428522306}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7463707336441683 0.20756771743082236 0.015479663515379346 0.030581885409630007
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.04s/it, eval_loss=0.0896, gpu_mem=8.68 GB]
+Valid loss:0.0896
+Val metric mean prob: 0.2516
+Best metric at: 0.4832 0.4490  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+[I 2023-02-17 07:51:35,630] Trial 50 finished with value: 0.4832214765100671 and parameters: {'a1': 0.7463707336441683, 'a2': 0.20756771743082236, 'a3': 0.015479663515379346}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5934587855865325 0.24721877746411805 0.0072468379513718865 0.15207559899797754
+
+Val: 100%|██████████| 171/171 [02:53<00:00,  1.02s/it, eval_loss=0.0887, gpu_mem=8.68 GB]
+Valid loss:0.0887
+Val metric mean prob: 0.2539
+Best metric at: 0.4898 0.4590  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 07:54:41,564] Trial 51 finished with value: 0.48979591836734687 and parameters: {'a1': 0.5934587855865325, 'a2': 0.24721877746411805, 'a3': 0.0072468379513718865}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6406157368122587 0.23649930490229903 0.023076721213161788 0.09980823707228048
+
+Val: 100%|██████████| 171/171 [02:52<00:00,  1.01s/it, eval_loss=0.0889, gpu_mem=8.68 GB]
+Valid loss:0.0889
+Val metric mean prob: 0.2538
+Best metric at: 0.4932 0.4560  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 07:57:52,494] Trial 52 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6406157368122587, 'a2': 0.23649930490229903, 'a3': 0.023076721213161788}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.5380685659088933 0.28405273740843523 0.00229588450755652 0.17558281217511496
+
+Val: 100%|██████████| 171/171 [02:58<00:00,  1.04s/it, eval_loss=0.0888, gpu_mem=8.68 GB]
+Valid loss:0.0888
+Val metric mean prob: 0.2552
+Best metric at: 0.4865 0.4560  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+[I 2023-02-17 08:01:02,354] Trial 53 finished with value: 0.48648648648648646 and parameters: {'a1': 0.5380685659088933, 'a2': 0.28405273740843523, 'a3': 0.00229588450755652}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.7052169857414715 0.2265355852209535 0.011733612976870759 0.05651381606070424
+
+Val: 100%|██████████| 171/171 [03:01<00:00,  1.06s/it, eval_loss=0.0894, gpu_mem=8.68 GB]
+Valid loss:0.0894
+Val metric mean prob: 0.2532
+Best metric at: 0.4932 0.4550  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 08:04:20,292] Trial 54 finished with value: 0.49315068493150693 and parameters: {'a1': 0.7052169857414715, 'a2': 0.2265355852209535, 'a3': 0.011733612976870759}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6020705927556879 0.25905858512673824 0.027664129031432082 0.11120669308614181
+
+Val: 100%|██████████| 171/171 [02:52<00:00,  1.01s/it, eval_loss=0.0890, gpu_mem=8.68 GB]
+Valid loss:0.0890
+Val metric mean prob: 0.2544
+Best metric at: 0.4898 0.4590  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+[I 2023-02-17 08:07:31,057] Trial 55 finished with value: 0.48979591836734687 and parameters: {'a1': 0.6020705927556879, 'a2': 0.25905858512673824, 'a3': 0.027664129031432082}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+0.6582062351843442 0.24387074603084524 0.006050414833391717 0.09187260395141886
+
+Val: 100%|██████████| 171/171 [02:59<00:00,  1.05s/it, eval_loss=0.0891, gpu_mem=8.68 GB]
+Valid loss:0.0891
+Val metric mean prob: 0.2542
+Best metric at: 0.4932 0.4540  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+[I 2023-02-17 08:10:42,019] Trial 56 finished with value: 0.49315068493150693 and parameters: {'a1': 0.6582062351843442, 'a2': 0.24387074603084524, 'a3': 0.006050414833391717}. Best is trial 39 with value: 0.4965517241379309.
+none:  foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_6_0.4648_0.444.pth
+hehe foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_8_0.4471_0.371.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_7_0.4192_0.270.pth
+noob foldsensemble/tf_efficientnetv2_b2_fold_3_model_epoch_4_0.4103_0.343.pth
+
+
+
+
+SWA FOLD 1
+

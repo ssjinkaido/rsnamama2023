@@ -1,0 +1,6384 @@
+Date :02/21/2023, 07:27:16
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.1234
+Val metric mean prob: 0.1523
+Best metric at: 0.4870 0.3920  0.7174
+Cf: [[4622   40]
+ [  59   47]]
+Valid loss:0.0924
+Val metric mean prob: 0.2610
+Best metric at: 0.4946 0.4030  0.7133
+Cf: [[4628   34]
+ [  60   46]]
+Valid loss:0.0962
+Val metric mean prob: 0.2376
+Best metric at: 0.5029 0.4610  0.7049
+Cf: [[4637   25]
+ [  62   44]]
+Valid loss:0.1290
+Val metric mean prob: 0.1454
+Best metric at: 0.4900 0.4120  0.7263
+Cf: [[4617   45]
+ [  57   49]]
+Valid loss:0.0958
+Val metric mean prob: 0.2743
+Best metric at: 0.4972 0.4740  0.7047
+Cf: [[4635   27]
+ [  62   44]]
+Valid loss:0.0959
+Val metric mean prob: 0.2403
+Best metric at: 0.4920 0.4370  0.7132
+Cf: [[4627   35]
+ [  60   46]]
+Valid loss:0.1244
+Val metric mean prob: 0.1522
+Best metric at: 0.5049 0.3800  0.7401
+Cf: [[4614   48]
+ [  54   52]]
+Valid loss:0.1260
+Val metric mean prob: 0.1483
+Best metric at: 0.5000 0.3730  0.7399
+Cf: [[4612   50]
+ [  54   52]]
+Valid loss:0.0935
+Val metric mean prob: 0.2533
+Best metric at: 0.5028 0.4370  0.7093
+Cf: [[4634   28]
+ [  61   45]]
+Valid loss:0.0971
+Val metric mean prob: 0.2536
+Best metric at: 0.4804 0.4700  0.6996
+Cf: [[4632   30]
+ [  63   43]]
+Valid loss:0.0942
+Val metric mean prob: 0.2215
+Best metric at: 0.4842 0.3650  0.7129
+Cf: [[4624   38]
+ [  60   46]]
+Valid loss:0.1009
+Val metric mean prob: 0.2163
+Best metric at: 0.4885 0.3740  0.7438
+Cf: [[4604   58]
+ [  53   53]]
+Date :02/21/2023, 08:24:26
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0969
+Val metric mean prob: 0.2454
+Best metric at: 0.4699 0.4360  0.6992
+Cf: [[4628   34]
+ [  63   43]]
+Valid loss:0.1147
+Val metric mean prob: 0.1750
+Best metric at: 0.5076 0.4180  0.7315
+Cf: [[4621   41]
+ [  56   50]]
+Valid loss:0.0959
+Val metric mean prob: 0.2455
+Best metric at: 0.4800 0.4570  0.6952
+Cf: [[4635   27]
+ [  64   42]]
+Valid loss:0.1145
+Val metric mean prob: 0.1672
+Best metric at: 0.4876 0.3780  0.7262
+Cf: [[4616   46]
+ [  57   49]]
+Valid loss:0.1214
+Val metric mean prob: 0.1612
+Best metric at: 0.4876 0.3930  0.7262
+Cf: [[4616   46]
+ [  57   49]]
+Valid loss:0.0958
+Val metric mean prob: 0.2631
+Best metric at: 0.5000 0.4470  0.7179
+Cf: [[4627   35]
+ [  59   47]]
+Valid loss:0.0957
+Val metric mean prob: 0.2416
+Best metric at: 0.5000 0.4560  0.7048
+Cf: [[4636   26]
+ [  62   44]]
+Valid loss:0.1241
+Val metric mean prob: 0.1587
+Best metric at: 0.5051 0.4220  0.7313
+Cf: [[4620   42]
+ [  56   50]]
+Valid loss:0.0909
+Val metric mean prob: 0.2516
+Best metric at: 0.4973 0.3650  0.7134
+Cf: [[4629   33]
+ [  60   46]]
+Valid loss:0.1289
+Val metric mean prob: 0.1478
+Best metric at: 0.4929 0.3840  0.7396
+Cf: [[4609   53]
+ [  54   52]]
+Valid loss:0.0994
+Val metric mean prob: 0.2176
+Best metric at: 0.5026 0.4300  0.7224
+Cf: [[4625   37]
+ [  58   48]]
+Valid loss:0.1268
+Val metric mean prob: 0.1550
+Best metric at: 0.4950 0.4180  0.7309
+Cf: [[4616   46]
+ [  56   50]]
+Valid loss:0.1120
+Val metric mean prob: 0.1869
+Best metric at: 0.5167 0.4110  0.7495
+Cf: [[4613   49]
+ [  52   54]]
+Valid loss:0.0963
+Val metric mean prob: 0.2326
+Best metric at: 0.4945 0.4320  0.7089
+Cf: [[4631   31]
+ [  61   45]]
+Valid loss:0.1161
+Val metric mean prob: 0.1733
+Best metric at: 0.5123 0.4140  0.7405
+Cf: [[4617   45]
+ [  54   52]]
+Valid loss:0.1133
+Val metric mean prob: 0.1813
+Best metric at: 0.5143 0.4120  0.7494
+Cf: [[4612   50]
+ [  52   54]]
+Valid loss:0.1129
+Val metric mean prob: 0.1810
+Best metric at: 0.5073 0.4160  0.7402
+Cf: [[4615   47]
+ [  54   52]]
+Valid loss:0.1127
+Val metric mean prob: 0.1790
+Best metric at: 0.4831 0.4060  0.7304
+Cf: [[4611   51]
+ [  56   50]]
+Valid loss:0.1030
+Val metric mean prob: 0.2169
+Best metric at: 0.5070 0.4130  0.7490
+Cf: [[4609   53]
+ [  52   54]]
+Valid loss:0.1056
+Val metric mean prob: 0.2115
+Best metric at: 0.5123 0.4320  0.7405
+Cf: [[4617   45]
+ [  54   52]]
+Valid loss:0.1113
+Val metric mean prob: 0.1812
+Best metric at: 0.4902 0.4110  0.7307
+Cf: [[4614   48]
+ [  56   50]]
+Valid loss:0.1145
+Val metric mean prob: 0.1772
+Best metric at: 0.5118 0.4080  0.7492
+Cf: [[4611   51]
+ [  52   54]]
+Valid loss:0.1211
+Val metric mean prob: 0.1623
+Best metric at: 0.5100 0.4100  0.7360
+Cf: [[4619   43]
+ [  55   51]]
+Valid loss:0.1206
+Val metric mean prob: 0.1625
+Best metric at: 0.5093 0.3870  0.7535
+Cf: [[4607   55]
+ [  51   55]]
+Valid loss:0.1175
+Val metric mean prob: 0.1690
+Best metric at: 0.5146 0.4060  0.7450
+Cf: [[4615   47]
+ [  53   53]]
+Valid loss:0.1153
+Val metric mean prob: 0.1743
+Best metric at: 0.5102 0.4210  0.7316
+Cf: [[4622   40]
+ [  56   50]]
+Valid loss:0.1075
+Val metric mean prob: 0.1957
+Best metric at: 0.5152 0.4300  0.7362
+Cf: [[4621   41]
+ [  55   51]]
+Valid loss:0.1038
+Val metric mean prob: 0.2077
+Best metric at: 0.4975 0.4130  0.7310
+Cf: [[4617   45]
+ [  56   50]]
+Date :02/21/2023, 10:38:55
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0967
+Val metric mean prob: 0.2452
+Best metric at: 0.4753 0.3530  0.7431
+Cf: [[4598   64]
+ [  53   53]]
+Valid loss:0.1077
+Val metric mean prob: 0.1954
+Best metric at: 0.4906 0.3780  0.7395
+Cf: [[4608   54]
+ [  54   52]]
+Valid loss:0.1294
+Val metric mean prob: 0.1501
+Best metric at: 0.4896 0.4190  0.7175
+Cf: [[4623   39]
+ [  59   47]]
+Valid loss:0.1111
+Val metric mean prob: 0.1868
+Best metric at: 0.4870 0.3640  0.7569
+Cf: [[4594   68]
+ [  50   56]]
+Valid loss:0.1141
+Val metric mean prob: 0.1753
+Best metric at: 0.4787 0.4500  0.7083
+Cf: [[4625   37]
+ [  61   45]]
+Valid loss:0.1324
+Val metric mean prob: 0.1466
+Best metric at: 0.4878 0.4120  0.7306
+Cf: [[4613   49]
+ [  56   50]]
+Date :02/21/2023, 11:11:27
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.1158
+Val metric mean prob: 0.1778
+Best metric at: 0.4785 0.3990  0.7302
+Cf: [[4609   53]
+ [  56   50]]
+Valid loss:0.1215
+Val metric mean prob: 0.1606
+Best metric at: 0.4767 0.4070  0.7126
+Cf: [[4621   41]
+ [  60   46]]
+Valid loss:0.0954
+Val metric mean prob: 0.2501
+Best metric at: 0.4865 0.4340  0.7086
+Cf: [[4628   34]
+ [  61   45]]
+Valid loss:0.0969
+Val metric mean prob: 0.2299
+Best metric at: 0.5000 0.4210  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1129
+Val metric mean prob: 0.1714
+Best metric at: 0.5161 0.4110  0.7230
+Cf: [[4630   32]
+ [  58   48]]
+Valid loss:0.0942
+Val metric mean prob: 0.2702
+Best metric at: 0.4948 0.4170  0.7221
+Cf: [[4622   40]
+ [  58   48]]
+Valid loss:0.1233
+Val metric mean prob: 0.1587
+Best metric at: 0.4842 0.4390  0.7129
+Cf: [[4624   38]
+ [  60   46]]
+Valid loss:0.0969
+Val metric mean prob: 0.2473
+Best metric at: 0.4699 0.4330  0.6992
+Cf: [[4628   34]
+ [  63   43]]
+Valid loss:0.1051
+Val metric mean prob: 0.1969
+Best metric at: 0.4918 0.4520  0.7088
+Cf: [[4630   32]
+ [  61   45]]
+Valid loss:0.1285
+Val metric mean prob: 0.1527
+Best metric at: 0.4695 0.3950  0.7297
+Cf: [[4605   57]
+ [  56   50]]
+Valid loss:0.0911
+Val metric mean prob: 0.2544
+Best metric at: 0.4894 0.3690  0.7131
+Cf: [[4626   36]
+ [  60   46]]
+Valid loss:0.1023
+Val metric mean prob: 0.2006
+Best metric at: 0.5055 0.4280  0.7138
+Cf: [[4632   30]
+ [  60   46]]
+Valid loss:0.1041
+Val metric mean prob: 0.1943
+Best metric at: 0.5000 0.4170  0.7135
+Cf: [[4630   32]
+ [  60   46]]
+Valid loss:0.1093
+Val metric mean prob: 0.1794
+Best metric at: 0.5000 0.4190  0.7092
+Cf: [[4633   29]
+ [  61   45]]
+Valid loss:0.1009
+Val metric mean prob: 0.2063
+Best metric at: 0.5000 0.4190  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1028
+Val metric mean prob: 0.1930
+Best metric at: 0.5085 0.4190  0.7095
+Cf: [[4636   26]
+ [  61   45]]
+Valid loss:0.1063
+Val metric mean prob: 0.1831
+Best metric at: 0.4973 0.4030  0.7134
+Cf: [[4629   33]
+ [  60   46]]
+Valid loss:0.1067
+Val metric mean prob: 0.1753
+Best metric at: 0.4884 0.4020  0.6955
+Cf: [[4638   24]
+ [  64   42]]
+Valid loss:0.0908
+Val metric mean prob: 0.2427
+Best metric at: 0.5055 0.3420  0.7138
+Cf: [[4632   30]
+ [  60   46]]
+Valid loss:0.1030
+Val metric mean prob: 0.1945
+Best metric at: 0.5143 0.4300  0.7097
+Cf: [[4638   24]
+ [  61   45]]
+Valid loss:0.1188
+Val metric mean prob: 0.1639
+Best metric at: 0.5000 0.4090  0.7267
+Cf: [[4621   41]
+ [  57   49]]
+Valid loss:0.1058
+Val metric mean prob: 0.1864
+Best metric at: 0.5114 0.4260  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1056
+Val metric mean prob: 0.1877
+Best metric at: 0.5114 0.4250  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1184
+Val metric mean prob: 0.1609
+Best metric at: 0.5027 0.4130  0.7137
+Cf: [[4631   31]
+ [  60   46]]
+Valid loss:0.1131
+Val metric mean prob: 0.1726
+Best metric at: 0.5109 0.4180  0.7184
+Cf: [[4631   31]
+ [  59   47]]
+Valid loss:0.0989
+Val metric mean prob: 0.2026
+Best metric at: 0.5000 0.4170  0.7048
+Cf: [[4636   26]
+ [  62   44]]
+Valid loss:0.1052
+Val metric mean prob: 0.1820
+Best metric at: 0.4944 0.4000  0.7045
+Cf: [[4634   28]
+ [  62   44]]
+Valid loss:0.1171
+Val metric mean prob: 0.1633
+Best metric at: 0.5000 0.4150  0.7135
+Cf: [[4630   32]
+ [  60   46]]
+Valid loss:0.0967
+Val metric mean prob: 0.2200
+Best metric at: 0.5027 0.4160  0.7181
+Cf: [[4628   34]
+ [  59   47]]
+Valid loss:0.1182
+Val metric mean prob: 0.1714
+Best metric at: 0.4739 0.3900  0.7300
+Cf: [[4607   55]
+ [  56   50]]
+Valid loss:0.1011
+Val metric mean prob: 0.1995
+Best metric at: 0.5056 0.4210  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1081
+Val metric mean prob: 0.1815
+Best metric at: 0.5056 0.4220  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1017
+Val metric mean prob: 0.1991
+Best metric at: 0.5085 0.4310  0.7095
+Cf: [[4636   26]
+ [  61   45]]
+Valid loss:0.1225
+Val metric mean prob: 0.1572
+Best metric at: 0.5000 0.4080  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1219
+Val metric mean prob: 0.1568
+Best metric at: 0.4894 0.4110  0.7131
+Cf: [[4626   36]
+ [  60   46]]
+Valid loss:0.1066
+Val metric mean prob: 0.1862
+Best metric at: 0.5028 0.4260  0.7093
+Cf: [[4634   28]
+ [  61   45]]
+Valid loss:0.1011
+Val metric mean prob: 0.2030
+Best metric at: 0.5056 0.4320  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1051
+Val metric mean prob: 0.1866
+Best metric at: 0.5056 0.4150  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1040
+Val metric mean prob: 0.2091
+Best metric at: 0.5023 0.3820  0.7488
+Cf: [[4607   55]
+ [  52   54]]
+Valid loss:0.0962
+Val metric mean prob: 0.2248
+Best metric at: 0.4873 0.4030  0.7218
+Cf: [[4619   43]
+ [  58   48]]
+Valid loss:0.1229
+Val metric mean prob: 0.1609
+Best metric at: 0.4762 0.4170  0.7082
+Cf: [[4624   38]
+ [  61   45]]
+Valid loss:0.1111
+Val metric mean prob: 0.1765
+Best metric at: 0.5109 0.4180  0.7184
+Cf: [[4631   31]
+ [  59   47]]
+Valid loss:0.1075
+Val metric mean prob: 0.1829
+Best metric at: 0.5085 0.4240  0.7095
+Cf: [[4636   26]
+ [  61   45]]
+Valid loss:0.1021
+Val metric mean prob: 0.1986
+Best metric at: 0.5085 0.4290  0.7095
+Cf: [[4636   26]
+ [  61   45]]
+Valid loss:0.1091
+Val metric mean prob: 0.1776
+Best metric at: 0.4973 0.4090  0.7134
+Cf: [[4629   33]
+ [  60   46]]
+Valid loss:0.1037
+Val metric mean prob: 0.1928
+Best metric at: 0.5143 0.4280  0.7097
+Cf: [[4638   24]
+ [  61   45]]
+Valid loss:0.1090
+Val metric mean prob: 0.1790
+Best metric at: 0.5000 0.4220  0.7048
+Cf: [[4636   26]
+ [  62   44]]
+Valid loss:0.0973
+Val metric mean prob: 0.2158
+Best metric at: 0.5000 0.3990  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1100
+Val metric mean prob: 0.1753
+Best metric at: 0.4972 0.4160  0.7047
+Cf: [[4635   27]
+ [  62   44]]
+Valid loss:0.1007
+Val metric mean prob: 0.1981
+Best metric at: 0.5028 0.4150  0.7093
+Cf: [[4634   28]
+ [  61   45]]
+Valid loss:0.1025
+Val metric mean prob: 0.1954
+Best metric at: 0.5114 0.4270  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1033
+Val metric mean prob: 0.1927
+Best metric at: 0.5114 0.4250  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1024
+Val metric mean prob: 0.1968
+Best metric at: 0.5114 0.4300  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1028
+Val metric mean prob: 0.1970
+Best metric at: 0.5056 0.4310  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1073
+Val metric mean prob: 0.1790
+Best metric at: 0.4944 0.4110  0.7045
+Cf: [[4634   28]
+ [  62   44]]
+Valid loss:0.1016
+Val metric mean prob: 0.1974
+Best metric at: 0.5056 0.4200  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1205
+Val metric mean prob: 0.1597
+Best metric at: 0.5000 0.4080  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1048
+Val metric mean prob: 0.1866
+Best metric at: 0.5000 0.4110  0.7092
+Cf: [[4633   29]
+ [  61   45]]
+Valid loss:0.1007
+Val metric mean prob: 0.2018
+Best metric at: 0.5056 0.4240  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1030
+Val metric mean prob: 0.1940
+Best metric at: 0.5114 0.4270  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1263
+Val metric mean prob: 0.1537
+Best metric at: 0.4740 0.4420  0.6906
+Cf: [[4636   26]
+ [  65   41]]
+Valid loss:0.1008
+Val metric mean prob: 0.2000
+Best metric at: 0.5056 0.4190  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.0981
+Val metric mean prob: 0.2124
+Best metric at: 0.5000 0.4210  0.7092
+Cf: [[4633   29]
+ [  61   45]]
+Valid loss:0.1080
+Val metric mean prob: 0.1803
+Best metric at: 0.5000 0.4170  0.7048
+Cf: [[4636   26]
+ [  62   44]]
+Date :02/21/2023, 16:29:51
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.1264
+Val metric mean prob: 0.1676
+Best metric at: 0.4646 0.4450  0.7120
+Cf: [[4616   46]
+ [  60   46]]
+Date :02/21/2023, 16:41:06
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.1264
+Val metric mean prob: 0.1676
+Best metric at: 0.4646 0.4450  0.7120
+Cf: [[4616   46]
+ [  60   46]]
+Valid loss:0.0412
+Val metric mean prob: 0.5253
+Best metric at: 0.8269 0.3850  0.9039
+Cf: [[4646   16]
+ [  20   86]]
+Valid loss:0.9722
+Val metric mean prob: 0.0429
+Best metric at: 0.0435 0.0010  0.5000
+Cf: [[   0 4662]
+ [   0  106]]
+Valid loss:0.1945
+Val metric mean prob: 0.0653
+Best metric at: 0.2323 0.3600  0.5816
+Cf: [[4631   31]
+ [  88   18]]
+Valid loss:0.8905
+Val metric mean prob: 0.0429
+Best metric at: 0.0435 0.0010  0.5000
+Cf: [[   0 4662]
+ [   0  106]]
+Valid loss:0.0398
+Val metric mean prob: 0.5405
+Best metric at: 0.8447 0.4120  0.9090
+Cf: [[4649   13]
+ [  19   87]]
+Valid loss:0.5558
+Val metric mean prob: 0.0422
+Best metric at: 0.0435 0.0010  0.5000
+Cf: [[   0 4662]
+ [   0  106]]
+Valid loss:1.1717
+Val metric mean prob: 0.0431
+Best metric at: 0.0435 0.0010  0.5000
+Cf: [[   0 4662]
+ [   0  106]]
+Valid loss:0.5222
+Val metric mean prob: 0.0421
+Best metric at: 0.0435 0.4010  0.5005
+Cf: [[   5 4657]
+ [   0  106]]
+Valid loss:0.5636
+Val metric mean prob: 0.0423
+Best metric at: 0.0435 0.0010  0.5000
+Cf: [[   0 4662]
+ [   0  106]]
+Valid loss:0.0442
+Val metric mean prob: 0.5048
+Best metric at: 0.8780 0.4430  0.9236
+Cf: [[4653    9]
+ [  16   90]]
+Valid loss:0.0415
+Val metric mean prob: 0.5226
+Best metric at: 0.8725 0.4300  0.9188
+Cf: [[4653    9]
+ [  17   89]]
+Valid loss:0.0437
+Val metric mean prob: 0.5073
+Best metric at: 0.8750 0.4280  0.9281
+Cf: [[4651   11]
+ [  15   91]]
+Valid loss:0.1543
+Val metric mean prob: 0.0993
+Best metric at: 0.3602 0.3000  0.6721
+Cf: [[4595   67]
+ [  68   38]]
+Valid loss:0.0471
+Val metric mean prob: 0.4852
+Best metric at: 0.8488 0.4740  0.9091
+Cf: [[4650   12]
+ [  19   87]]
+Valid loss:0.0422
+Val metric mean prob: 0.5172
+Best metric at: 0.8768 0.4420  0.9190
+Cf: [[4654    8]
+ [  17   89]]
+Valid loss:0.2427
+Val metric mean prob: 0.0409
+Best metric at: 0.0526 0.1950  0.5174
+Cf: [[4472  190]
+ [  98    8]]
+Valid loss:0.0557
+Val metric mean prob: 0.4019
+Best metric at: 0.7047 0.4070  0.8187
+Cf: [[4643   19]
+ [  38   68]]
+Valid loss:0.0422
+Val metric mean prob: 0.5168
+Best metric at: 0.8768 0.4490  0.9190
+Cf: [[4654    8]
+ [  17   89]]
+Valid loss:0.1394
+Val metric mean prob: 0.1108
+Best metric at: 0.3750 0.3310  0.6644
+Cf: [[4612   50]
+ [  70   36]]
+Valid loss:0.0439
+Val metric mean prob: 0.5013
+Best metric at: 0.8137 0.4100  0.8899
+Cf: [[4647   15]
+ [  23   83]]
+Valid loss:0.0423
+Val metric mean prob: 0.5170
+Best metric at: 0.8756 0.4600  0.9143
+Cf: [[4655    7]
+ [  18   88]]
+Valid loss:0.0422
+Val metric mean prob: 0.5187
+Best metric at: 0.8416 0.4540  0.8998
+Cf: [[4651   11]
+ [  21   85]]
+Valid loss:0.0419
+Val metric mean prob: 0.5192
+Best metric at: 0.8768 0.4410  0.9190
+Cf: [[4654    8]
+ [  17   89]]
+Valid loss:0.0581
+Val metric mean prob: 0.3842
+Best metric at: 0.6759 0.3230  0.8404
+Cf: [[4625   37]
+ [  33   73]]
+Valid loss:0.0419
+Val metric mean prob: 0.5215
+Best metric at: 0.8491 0.4050  0.9228
+Cf: [[4646   16]
+ [  16   90]]
+Valid loss:0.0818
+Val metric mean prob: 0.2538
+Best metric at: 0.5376 0.3980  0.7326
+Cf: [[4632   30]
+ [  56   50]]
+Date :02/21/2023, 18:54:58
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Date :02/21/2023, 18:57:18
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0907
+Val metric mean prob: 0.2001
+Best metric at: 0.4199 0.3940  0.7032
+Cf: [[4619   52]
+ [  53   38]]
+Valid loss:0.0912
+Val metric mean prob: 0.2179
+Best metric at: 0.4162 0.4350  0.6929
+Cf: [[4625   46]
+ [  55   36]]
+Valid loss:0.0901
+Val metric mean prob: 0.2478
+Best metric at: 0.4828 0.4530  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0908
+Val metric mean prob: 0.2474
+Best metric at: 0.4645 0.4380  0.6948
+Cf: [[4643   28]
+ [  55   36]]
+Valid loss:0.0934
+Val metric mean prob: 0.2406
+Best metric at: 0.4294 0.4660  0.6883
+Cf: [[4634   37]
+ [  56   35]]
+Valid loss:0.0864
+Val metric mean prob: 0.1789
+Best metric at: 0.4416 0.3600  0.6837
+Cf: [[4642   29]
+ [  57   34]]
+Valid loss:0.0948
+Val metric mean prob: 0.2161
+Best metric at: 0.4250 0.4760  0.6831
+Cf: [[4636   35]
+ [  57   34]]
+Valid loss:0.0898
+Val metric mean prob: 0.2379
+Best metric at: 0.4648 0.4460  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Valid loss:0.0922
+Val metric mean prob: 0.2355
+Best metric at: 0.4512 0.4420  0.6994
+Cf: [[4635   36]
+ [  54   37]]
+Date :02/21/2023, 19:48:52
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0904
+Val metric mean prob: 0.2532
+Best metric at: 0.4774 0.4280  0.7004
+Cf: [[4644   27]
+ [  54   37]]
+Valid loss:0.0898
+Val metric mean prob: 0.2377
+Best metric at: 0.4706 0.4110  0.6950
+Cf: [[4645   26]
+ [  55   36]]
+Valid loss:0.0863
+Val metric mean prob: 0.2666
+Best metric at: 0.4586 0.4440  0.6946
+Cf: [[4641   30]
+ [  55   36]]
+Valid loss:0.0889
+Val metric mean prob: 0.2698
+Best metric at: 0.4605 0.4550  0.6895
+Cf: [[4645   26]
+ [  56   35]]
+Valid loss:0.0863
+Val metric mean prob: 0.2735
+Best metric at: 0.4634 0.3720  0.7050
+Cf: [[4636   35]
+ [  53   38]]
+Date :02/21/2023, 20:17:20
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0872
+Val metric mean prob: 0.2618
+Best metric at: 0.4658 0.4720  0.6846
+Cf: [[4650   21]
+ [  57   34]]
+Valid loss:0.0886
+Val metric mean prob: 0.2622
+Best metric at: 0.4966 0.4570  0.7010
+Cf: [[4650   21]
+ [  54   37]]
+Valid loss:0.0880
+Val metric mean prob: 0.2805
+Best metric at: 0.4832 0.4290  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+Valid loss:0.0891
+Val metric mean prob: 0.2546
+Best metric at: 0.4588 0.4050  0.7100
+Cf: [[4631   40]
+ [  52   39]]
+Valid loss:0.0854
+Val metric mean prob: 0.2037
+Best metric at: 0.4551 0.3720  0.7047
+Cf: [[4633   38]
+ [  53   38]]
+Valid loss:0.0895
+Val metric mean prob: 0.2392
+Best metric at: 0.4457 0.4020  0.7095
+Cf: [[4626   45]
+ [  52   39]]
+Valid loss:0.0907
+Val metric mean prob: 0.2733
+Best metric at: 0.4690 0.4570  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0879
+Val metric mean prob: 0.2572
+Best metric at: 0.4713 0.4310  0.7002
+Cf: [[4642   29]
+ [  54   37]]
+Valid loss:0.0897
+Val metric mean prob: 0.2497
+Best metric at: 0.4837 0.4240  0.7006
+Cf: [[4646   25]
+ [  54   37]]
+Valid loss:0.0915
+Val metric mean prob: 0.2258
+Best metric at: 0.4379 0.4520  0.6989
+Cf: [[4630   41]
+ [  54   37]]
+Valid loss:0.0883
+Val metric mean prob: 0.2417
+Best metric at: 0.4795 0.4530  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0868
+Val metric mean prob: 0.2422
+Best metric at: 0.4828 0.4560  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0893
+Val metric mean prob: 0.2419
+Best metric at: 0.4768 0.4170  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+Valid loss:0.0880
+Val metric mean prob: 0.2527
+Best metric at: 0.4837 0.4230  0.7006
+Cf: [[4646   25]
+ [  54   37]]
+Valid loss:0.0887
+Val metric mean prob: 0.2523
+Best metric at: 0.4800 0.4470  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0881
+Val metric mean prob: 0.2445
+Best metric at: 0.4795 0.4520  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0896
+Val metric mean prob: 0.2381
+Best metric at: 0.4648 0.4440  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Valid loss:0.0883
+Val metric mean prob: 0.2521
+Best metric at: 0.4730 0.4640  0.6900
+Cf: [[4649   22]
+ [  56   35]]
+Valid loss:0.0886
+Val metric mean prob: 0.2601
+Best metric at: 0.4671 0.4110  0.7103
+Cf: [[4634   37]
+ [  52   39]]
+Valid loss:0.0884
+Val metric mean prob: 0.2456
+Best metric at: 0.4762 0.4550  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0882
+Val metric mean prob: 0.2436
+Best metric at: 0.4795 0.4510  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0876
+Val metric mean prob: 0.2521
+Best metric at: 0.4805 0.4290  0.7005
+Cf: [[4645   26]
+ [  54   37]]
+Valid loss:0.0877
+Val metric mean prob: 0.2483
+Best metric at: 0.4762 0.4540  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0877
+Val metric mean prob: 0.2492
+Best metric at: 0.4636 0.4630  0.6896
+Cf: [[4646   25]
+ [  56   35]]
+Valid loss:0.0880
+Val metric mean prob: 0.2479
+Best metric at: 0.4795 0.4490  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0878
+Val metric mean prob: 0.2516
+Best metric at: 0.4762 0.4560  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0877
+Val metric mean prob: 0.2471
+Best metric at: 0.4575 0.4670  0.6894
+Cf: [[4644   27]
+ [  56   35]]
+Valid loss:0.0891
+Val metric mean prob: 0.2434
+Best metric at: 0.4828 0.4510  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0888
+Val metric mean prob: 0.2219
+Best metric at: 0.4431 0.4350  0.6991
+Cf: [[4632   39]
+ [  54   37]]
+Date :02/21/2023, 22:40:45
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0890
+Val metric mean prob: 0.2358
+Best metric at: 0.4268 0.3300  0.6882
+Cf: [[4633   38]
+ [  56   35]]
+Valid loss:0.0918
+Val metric mean prob: 0.2453
+Best metric at: 0.4430 0.4610  0.6889
+Cf: [[4639   32]
+ [  56   35]]
+Valid loss:0.0890
+Val metric mean prob: 0.2607
+Best metric at: 0.4528 0.4620  0.6944
+Cf: [[4639   32]
+ [  55   36]]
+Valid loss:0.0896
+Val metric mean prob: 0.2463
+Best metric at: 0.4675 0.4370  0.6949
+Cf: [[4644   27]
+ [  55   36]]
+Valid loss:0.0880
+Val metric mean prob: 0.2505
+Best metric at: 0.4528 0.4580  0.6944
+Cf: [[4639   32]
+ [  55   36]]
+Valid loss:0.0878
+Val metric mean prob: 0.2261
+Best metric at: 0.4444 0.4470  0.6941
+Cf: [[4636   35]
+ [  55   36]]
+Valid loss:0.0909
+Val metric mean prob: 0.2552
+Best metric at: 0.4444 0.4240  0.7043
+Cf: [[4629   42]
+ [  53   38]]
+Date :02/21/2023, 23:18:43
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0916
+Val metric mean prob: 0.2677
+Best metric at: 0.4595 0.4730  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0900
+Val metric mean prob: 0.2482
+Best metric at: 0.4800 0.4310  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0927
+Val metric mean prob: 0.2261
+Best metric at: 0.4431 0.4520  0.6991
+Cf: [[4632   39]
+ [  54   37]]
+Valid loss:0.0897
+Val metric mean prob: 0.2441
+Best metric at: 0.4828 0.4510  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0905
+Val metric mean prob: 0.2406
+Best metric at: 0.4713 0.4230  0.7002
+Cf: [[4642   29]
+ [  54   37]]
+Valid loss:0.0914
+Val metric mean prob: 0.2300
+Best metric at: 0.4540 0.4320  0.6996
+Cf: [[4636   35]
+ [  54   37]]
+Valid loss:0.0895
+Val metric mean prob: 0.2554
+Best metric at: 0.4898 0.4550  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0903
+Val metric mean prob: 0.2486
+Best metric at: 0.4828 0.4630  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0896
+Val metric mean prob: 0.2446
+Best metric at: 0.4828 0.4520  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0907
+Val metric mean prob: 0.2412
+Best metric at: 0.4645 0.4370  0.6948
+Cf: [[4643   28]
+ [  55   36]]
+Valid loss:0.0890
+Val metric mean prob: 0.2553
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0894
+Val metric mean prob: 0.2539
+Best metric at: 0.4595 0.4680  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0888
+Val metric mean prob: 0.2507
+Best metric at: 0.4586 0.4530  0.6946
+Cf: [[4641   30]
+ [  55   36]]
+Valid loss:0.0893
+Val metric mean prob: 0.2550
+Best metric at: 0.4898 0.4650  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0893
+Val metric mean prob: 0.2583
+Best metric at: 0.4690 0.4730  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0882
+Val metric mean prob: 0.2350
+Best metric at: 0.4533 0.4650  0.6841
+Cf: [[4646   25]
+ [  57   34]]
+Valid loss:0.0890
+Val metric mean prob: 0.2570
+Best metric at: 0.4667 0.4650  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+Valid loss:0.0898
+Val metric mean prob: 0.2428
+Best metric at: 0.4250 0.4670  0.6831
+Cf: [[4636   35]
+ [  57   34]]
+Valid loss:0.0908
+Val metric mean prob: 0.2456
+Best metric at: 0.4539 0.4940  0.6739
+Cf: [[4653   18]
+ [  59   32]]
+Valid loss:0.0913
+Val metric mean prob: 0.2383
+Best metric at: 0.4557 0.4580  0.6945
+Cf: [[4640   31]
+ [  55   36]]
+Valid loss:0.0920
+Val metric mean prob: 0.2313
+Best metric at: 0.4557 0.4610  0.6945
+Cf: [[4640   31]
+ [  55   36]]
+Valid loss:0.0909
+Val metric mean prob: 0.2462
+Best metric at: 0.4476 0.4990  0.6737
+Cf: [[4651   20]
+ [  59   32]]
+Valid loss:0.0913
+Val metric mean prob: 0.2255
+Best metric at: 0.4540 0.4360  0.6996
+Cf: [[4636   35]
+ [  54   37]]
+Valid loss:0.0902
+Val metric mean prob: 0.2509
+Best metric at: 0.4539 0.4960  0.6739
+Cf: [[4653   18]
+ [  59   32]]
+Valid loss:0.0896
+Val metric mean prob: 0.2526
+Best metric at: 0.4606 0.4330  0.7049
+Cf: [[4635   36]
+ [  53   38]]
+Valid loss:0.0900
+Val metric mean prob: 0.2470
+Best metric at: 0.4564 0.4660  0.6842
+Cf: [[4647   24]
+ [  57   34]]
+Valid loss:0.0893
+Val metric mean prob: 0.2353
+Best metric at: 0.4512 0.4260  0.6994
+Cf: [[4635   36]
+ [  54   37]]
+Valid loss:0.0904
+Val metric mean prob: 0.2478
+Best metric at: 0.4483 0.4090  0.7096
+Cf: [[4627   44]
+ [  52   39]]
+Valid loss:0.0902
+Val metric mean prob: 0.2362
+Best metric at: 0.4487 0.4530  0.6891
+Cf: [[4641   30]
+ [  56   35]]
+Valid loss:0.0898
+Val metric mean prob: 0.2539
+Best metric at: 0.4552 0.4780  0.6791
+Cf: [[4650   21]
+ [  58   33]]
+Valid loss:0.0916
+Val metric mean prob: 0.2392
+Best metric at: 0.4540 0.4490  0.6996
+Cf: [[4636   35]
+ [  54   37]]
+Valid loss:0.0899
+Val metric mean prob: 0.2344
+Best metric at: 0.4615 0.4330  0.6947
+Cf: [[4642   29]
+ [  55   36]]
+Valid loss:0.0923
+Val metric mean prob: 0.2295
+Best metric at: 0.4540 0.4430  0.6996
+Cf: [[4636   35]
+ [  54   37]]
+Valid loss:0.0896
+Val metric mean prob: 0.2366
+Best metric at: 0.4714 0.4700  0.6796
+Cf: [[4655   16]
+ [  58   33]]
+Valid loss:0.0925
+Val metric mean prob: 0.2267
+Best metric at: 0.4500 0.4530  0.6943
+Cf: [[4638   33]
+ [  55   36]]
+Valid loss:0.0895
+Val metric mean prob: 0.2361
+Best metric at: 0.4675 0.4190  0.6949
+Cf: [[4644   27]
+ [  55   36]]
+Valid loss:0.0901
+Val metric mean prob: 0.2354
+Best metric at: 0.4500 0.4410  0.6943
+Cf: [[4638   33]
+ [  55   36]]
+Valid loss:0.0897
+Val metric mean prob: 0.2415
+Best metric at: 0.4474 0.4650  0.6839
+Cf: [[4644   27]
+ [  57   34]]
+Valid loss:0.0899
+Val metric mean prob: 0.2357
+Best metric at: 0.4539 0.4870  0.6739
+Cf: [[4653   18]
+ [  59   32]]
+Valid loss:0.0896
+Val metric mean prob: 0.2409
+Best metric at: 0.4675 0.4340  0.6949
+Cf: [[4644   27]
+ [  55   36]]
+Valid loss:0.0897
+Val metric mean prob: 0.2437
+Best metric at: 0.4503 0.4680  0.6840
+Cf: [[4645   26]
+ [  57   34]]
+Valid loss:0.0915
+Val metric mean prob: 0.2346
+Best metric at: 0.4500 0.4430  0.6943
+Cf: [[4638   33]
+ [  55   36]]
+Valid loss:0.0911
+Val metric mean prob: 0.2321
+Best metric at: 0.4528 0.4380  0.6944
+Cf: [[4639   32]
+ [  55   36]]
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Date :02/22/2023, 02:58:34
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.1085
+Val metric mean prob: 0.3011
+Best metric at: 0.4239 0.3540  0.6866
+Cf: [[4619   43]
+ [  63   39]]
+Valid loss:0.0995
+Val metric mean prob: 0.2929
+Best metric at: 0.4258 0.4250  0.6596
+Cf: [[4642   20]
+ [  69   33]]
+Valid loss:0.1152
+Val metric mean prob: 0.2979
+Best metric at: 0.4211 0.2680  0.7089
+Cf: [[4599   63]
+ [  58   44]]
+Valid loss:0.1015
+Val metric mean prob: 0.2954
+Best metric at: 0.4246 0.3530  0.6821
+Cf: [[4623   39]
+ [  64   38]]
+Valid loss:0.1243
+Val metric mean prob: 0.2934
+Best metric at: 0.4024 0.4030  0.6631
+Cf: [[4629   33]
+ [  68   34]]
+Date :02/22/2023, 03:31:29
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0892
+Val metric mean prob: 0.2620
+Best metric at: 0.4832 0.4550  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+Valid loss:0.0850
+Val metric mean prob: 0.2301
+Best metric at: 0.4430 0.4460  0.6786
+Cf: [[4646   25]
+ [  58   33]]
+Date :02/22/2023, 03:43:27
+Date :02/22/2023, 03:43:27
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Fold: 3
+Len train df: 44752
+Len train df: 44752
+Train bs: 12
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+total_epoch :15
+Valid loss:0.0876
+Valid loss:0.0876
+Val metric mean prob: 0.2604
+Val metric mean prob: 0.2604
+Best metric at: 0.4586 0.4210  0.6946
+Best metric at: 0.4586 0.4210  0.6946
+Cf: [[4641   30]
+ [  55   36]]
+Cf: [[4641   30]
+ [  55   36]]
+Date :02/22/2023, 03:48:33
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0876
+Val metric mean prob: 0.2604
+Best metric at: 0.4586 0.4210  0.6946
+Cf: [[4641   30]
+ [  55   36]]
+Valid loss:0.0852
+Val metric mean prob: 0.2203
+Best metric at: 0.4595 0.4380  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0855
+Val metric mean prob: 0.2329
+Best metric at: 0.4474 0.4340  0.6839
+Cf: [[4644   27]
+ [  57   34]]
+Valid loss:0.0874
+Val metric mean prob: 0.2397
+Best metric at: 0.4416 0.4570  0.6837
+Cf: [[4642   29]
+ [  57   34]]
+Valid loss:0.0889
+Val metric mean prob: 0.2705
+Best metric at: 0.4659 0.3680  0.7206
+Cf: [[4627   44]
+ [  50   41]]
+Valid loss:0.0871
+Val metric mean prob: 0.2425
+Best metric at: 0.4533 0.4650  0.6841
+Cf: [[4646   25]
+ [  57   34]]
+Valid loss:0.0876
+Val metric mean prob: 0.2086
+Best metric at: 0.4397 0.4920  0.6683
+Cf: [[4652   19]
+ [  60   31]]
+Date :02/22/2023, 04:31:39
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0894
+Val metric mean prob: 0.2711
+Best metric at: 0.4521 0.4570  0.6790
+Cf: [[4649   22]
+ [  58   33]]
+Valid loss:0.0855
+Val metric mean prob: 0.2349
+Best metric at: 0.4526 0.4980  0.6687
+Cf: [[4656   15]
+ [  60   31]]
+Valid loss:0.0851
+Val metric mean prob: 0.2308
+Best metric at: 0.4400 0.4380  0.6785
+Cf: [[4645   26]
+ [  58   33]]
+Valid loss:0.0881
+Val metric mean prob: 0.2579
+Best metric at: 0.4750 0.4110  0.7055
+Cf: [[4640   31]
+ [  53   38]]
+Valid loss:0.0892
+Val metric mean prob: 0.2274
+Best metric at: 0.4430 0.4540  0.6889
+Cf: [[4639   32]
+ [  56   35]]
+Valid loss:0.0907
+Val metric mean prob: 0.2461
+Best metric at: 0.4595 0.4660  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0897
+Val metric mean prob: 0.2705
+Best metric at: 0.4552 0.4490  0.6791
+Cf: [[4650   21]
+ [  58   33]]
+Valid loss:0.0896
+Val metric mean prob: 0.2513
+Best metric at: 0.4832 0.4370  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+Valid loss:0.0925
+Val metric mean prob: 0.2124
+Best metric at: 0.4172 0.4650  0.6827
+Cf: [[4633   38]
+ [  57   34]]
+Valid loss:0.0879
+Val metric mean prob: 0.2466
+Best metric at: 0.4595 0.4670  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0868
+Val metric mean prob: 0.2360
+Best metric at: 0.4690 0.4600  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0882
+Val metric mean prob: 0.2569
+Best metric at: 0.4780 0.4100  0.7056
+Cf: [[4641   30]
+ [  53   38]]
+Valid loss:0.0874
+Val metric mean prob: 0.2418
+Best metric at: 0.4626 0.4610  0.6845
+Cf: [[4649   22]
+ [  57   34]]
+Valid loss:0.0861
+Val metric mean prob: 0.2403
+Best metric at: 0.4564 0.4600  0.6842
+Cf: [[4647   24]
+ [  57   34]]
+Valid loss:0.0873
+Val metric mean prob: 0.2453
+Best metric at: 0.4658 0.4640  0.6846
+Cf: [[4650   21]
+ [  57   34]]
+Valid loss:0.0873
+Val metric mean prob: 0.2530
+Best metric at: 0.4595 0.4670  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0868
+Val metric mean prob: 0.2408
+Best metric at: 0.4564 0.4620  0.6842
+Cf: [[4647   24]
+ [  57   34]]
+Valid loss:0.0878
+Val metric mean prob: 0.2476
+Best metric at: 0.4595 0.4490  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0878
+Val metric mean prob: 0.2579
+Best metric at: 0.4595 0.4600  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0879
+Val metric mean prob: 0.2527
+Best metric at: 0.4596 0.4050  0.6998
+Cf: [[4638   33]
+ [  54   37]]
+Valid loss:0.0874
+Val metric mean prob: 0.2442
+Best metric at: 0.4626 0.4620  0.6845
+Cf: [[4649   22]
+ [  57   34]]
+Valid loss:0.0882
+Val metric mean prob: 0.2581
+Best metric at: 0.4750 0.4100  0.7055
+Cf: [[4640   31]
+ [  53   38]]
+Valid loss:0.0886
+Val metric mean prob: 0.2542
+Best metric at: 0.4744 0.4110  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0882
+Val metric mean prob: 0.2564
+Best metric at: 0.4810 0.4190  0.7057
+Cf: [[4642   29]
+ [  53   38]]
+Valid loss:0.0881
+Val metric mean prob: 0.2494
+Best metric at: 0.4684 0.4060  0.7001
+Cf: [[4641   30]
+ [  54   37]]
+Valid loss:0.0879
+Val metric mean prob: 0.2545
+Best metric at: 0.4663 0.4020  0.7052
+Cf: [[4637   34]
+ [  53   38]]
+Valid loss:0.0877
+Val metric mean prob: 0.2430
+Best metric at: 0.4595 0.4470  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0883
+Val metric mean prob: 0.2543
+Best metric at: 0.4841 0.4170  0.7058
+Cf: [[4643   28]
+ [  53   38]]
+Valid loss:0.0881
+Val metric mean prob: 0.2527
+Best metric at: 0.4810 0.4120  0.7057
+Cf: [[4642   29]
+ [  53   38]]
+Valid loss:0.0887
+Val metric mean prob: 0.2504
+Best metric at: 0.4744 0.4140  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0885
+Val metric mean prob: 0.2529
+Best metric at: 0.4750 0.4040  0.7055
+Cf: [[4640   31]
+ [  53   38]]
+Valid loss:0.0882
+Val metric mean prob: 0.2536
+Best metric at: 0.4841 0.4170  0.7058
+Cf: [[4643   28]
+ [  53   38]]
+Valid loss:0.0878
+Val metric mean prob: 0.2523
+Best metric at: 0.4625 0.4080  0.6999
+Cf: [[4639   32]
+ [  54   37]]
+Valid loss:0.0879
+Val metric mean prob: 0.2590
+Best metric at: 0.4606 0.4030  0.7049
+Cf: [[4635   36]
+ [  53   38]]
+Valid loss:0.0885
+Val metric mean prob: 0.2523
+Best metric at: 0.4744 0.4130  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0892
+Val metric mean prob: 0.2511
+Best metric at: 0.4828 0.4580  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0889
+Val metric mean prob: 0.2498
+Best metric at: 0.4774 0.4140  0.7004
+Cf: [[4644   27]
+ [  54   37]]
+Valid loss:0.0889
+Val metric mean prob: 0.2514
+Best metric at: 0.4762 0.4550  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0893
+Val metric mean prob: 0.2509
+Best metric at: 0.4828 0.4570  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0883
+Val metric mean prob: 0.2519
+Best metric at: 0.4841 0.4100  0.7058
+Cf: [[4643   28]
+ [  53   38]]
+Valid loss:0.0887
+Val metric mean prob: 0.2528
+Best metric at: 0.4744 0.4150  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0855
+Val metric mean prob: 0.2880
+Best metric at: 0.4659 0.3690  0.6974
+Cf: [[4629   33]
+ [  61   41]]
+Valid loss:0.0815
+Val metric mean prob: 0.2706
+Best metric at: 0.4776 0.2770  0.7298
+Cf: [[4611   51]
+ [  54   48]]
+Valid loss:0.0823
+Val metric mean prob: 0.2493
+Best metric at: 0.4731 0.2810  0.7114
+Cf: [[4622   40]
+ [  58   44]]
+Valid loss:0.0817
+Val metric mean prob: 0.2517
+Best metric at: 0.4974 0.2950  0.7261
+Cf: [[4622   40]
+ [  55   47]]
+Valid loss:0.1023
+Val metric mean prob: 0.3117
+Best metric at: 0.4541 0.3010  0.7015
+Cf: [[4621   41]
+ [  60   42]]
+Valid loss:0.0806
+Val metric mean prob: 0.2366
+Best metric at: 0.4828 0.2510  0.7346
+Cf: [[4610   52]
+ [  53   49]]
+Valid loss:0.0950
+Val metric mean prob: 0.3093
+Best metric at: 0.4649 0.3310  0.7065
+Cf: [[4622   40]
+ [  59   43]]
+Valid loss:0.0842
+Val metric mean prob: 0.2688
+Best metric at: 0.4762 0.3030  0.7161
+Cf: [[4620   42]
+ [  57   45]]
+Valid loss:0.0844
+Val metric mean prob: 0.2968
+Best metric at: 0.4590 0.3390  0.7017
+Cf: [[4623   39]
+ [  60   42]]
+Valid loss:0.0883
+Val metric mean prob: 0.3005
+Best metric at: 0.4762 0.3470  0.7161
+Cf: [[4620   42]
+ [  57   45]]
+> SEEDING DONE
+none:  fold1/tf_efficientnetv2_b2_fold_1_model_epoch_7_0.4430_0.474.pth
+hehe fold1/tf_efficientnetv2_b2_fold_1_model_epoch_8_0.4569_0.264.pth
+noob fold1/tf_efficientnetv2_b2_fold_1_model_epoch_5_0.4393_0.278.pth
+noob fold1/tf_efficientnetv2_b2_fold_1_model_epoch_6_0.4432_0.319.pth
+noob fold1/tf_efficientnetv2_b2_fold_1_model_epoch_7_0.4578_0.382.pth
+hehe fold1/tf_efficientnetv2_b2_fold_1_model_epoch_5_0.4444_0.409.pth
+Valid loss:0.0865
+Val metric mean prob: 0.2840
+Best metric at: 0.4592 0.3270  0.7153
+Cf: [[4613   49]
+ [  57   45]]
+Valid loss:0.0807
+Val metric mean prob: 0.2736
+Best metric at: 0.4706 0.3030  0.7295
+Cf: [[4608   54]
+ [  54   48]]
+Valid loss:0.0846
+Val metric mean prob: 0.2872
+Best metric at: 0.4737 0.3270  0.7160
+Cf: [[4619   43]
+ [  57   45]]
+Valid loss:0.0800
+Val metric mean prob: 0.2667
+Best metric at: 0.4865 0.4500  0.6754
+Cf: [[4652   10]
+ [  66   36]]
+Valid loss:0.0852
+Val metric mean prob: 0.2908
+Best metric at: 0.4787 0.3250  0.7162
+Cf: [[4621   41]
+ [  57   45]]
+Valid loss:0.0797
+Val metric mean prob: 0.2425
+Best metric at: 0.4861 0.4130  0.6708
+Cf: [[4655    7]
+ [  67   35]]
+Valid loss:0.0897
+Val metric mean prob: 0.2614
+Best metric at: 0.4483 0.3950  0.6876
+Cf: [[4629   33]
+ [  63   39]]
+Valid loss:0.0807
+Val metric mean prob: 0.2485
+Best metric at: 0.4865 0.4240  0.6754
+Cf: [[4652   10]
+ [  66   36]]
+Valid loss:0.0824
+Val metric mean prob: 0.2701
+Best metric at: 0.4878 0.3050  0.7394
+Cf: [[4609   53]
+ [  52   50]]
+Valid loss:0.0818
+Val metric mean prob: 0.2563
+Best metric at: 0.4809 0.3440  0.7117
+Cf: [[4625   37]
+ [  58   44]]
+Valid loss:0.0830
+Val metric mean prob: 0.2863
+Best metric at: 0.4831 0.3710  0.7072
+Cf: [[4629   33]
+ [  59   43]]
+Valid loss:0.0839
+Val metric mean prob: 0.2577
+Best metric at: 0.4878 0.4260  0.6937
+Cf: [[4640   22]
+ [  62   40]]
+Valid loss:0.0866
+Val metric mean prob: 0.2665
+Best metric at: 0.4912 0.3840  0.7030
+Cf: [[4635   27]
+ [  60   42]]
+Valid loss:0.0871
+Val metric mean prob: 0.2659
+Best metric at: 0.4878 0.4470  0.6937
+Cf: [[4640   22]
+ [  62   40]]
+Valid loss:0.0839
+Val metric mean prob: 0.2740
+Best metric at: 0.4852 0.4030  0.6982
+Cf: [[4636   26]
+ [  61   41]]
+Valid loss:0.0828
+Val metric mean prob: 0.2841
+Best metric at: 0.4832 0.4660  0.6753
+Cf: [[4651   11]
+ [  66   36]]
+Valid loss:0.0821
+Val metric mean prob: 0.2477
+Best metric at: 0.4974 0.2860  0.7307
+Cf: [[4619   43]
+ [  54   48]]
+Valid loss:0.0815
+Val metric mean prob: 0.2555
+Best metric at: 0.5026 0.3140  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0819
+Val metric mean prob: 0.2621
+Best metric at: 0.4925 0.3030  0.7350
+Cf: [[4614   48]
+ [  53   49]]
+Valid loss:nan
+Val metric mean prob: 0.0000
+Best metric at: 0.0000 0.0000  0.0000
+Cf: None
+Valid loss:0.0838
+Val metric mean prob: 0.2675
+Best metric at: 0.4906 0.4110  0.6892
+Cf: [[4644   18]
+ [  63   39]]
+Valid loss:0.0823
+Val metric mean prob: 0.2473
+Best metric at: 0.4808 0.2960  0.7391
+Cf: [[4606   56]
+ [  52   50]]
+Valid loss:0.0810
+Val metric mean prob: 0.2637
+Best metric at: 0.5025 0.2870  0.7401
+Cf: [[4615   47]
+ [  52   50]]
+Valid loss:0.0827
+Val metric mean prob: 0.2747
+Best metric at: 0.4767 0.3780  0.6979
+Cf: [[4633   29]
+ [  61   41]]
+Valid loss:0.0814
+Val metric mean prob: 0.2568
+Best metric at: 0.5000 0.2970  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0829
+Val metric mean prob: 0.2613
+Best metric at: 0.4908 0.3920  0.6938
+Cf: [[4641   21]
+ [  62   40]]
+Valid loss:0.0869
+Val metric mean prob: 0.2847
+Best metric at: 0.4839 0.3150  0.7164
+Cf: [[4623   39]
+ [  57   45]]
+Valid loss:0.0852
+Val metric mean prob: 0.2630
+Best metric at: 0.4946 0.3440  0.7214
+Cf: [[4624   38]
+ [  56   46]]
+Valid loss:0.0817
+Val metric mean prob: 0.2604
+Best metric at: 0.4975 0.2990  0.7398
+Cf: [[4613   49]
+ [  52   50]]
+Valid loss:0.0816
+Val metric mean prob: 0.2566
+Best metric at: 0.5000 0.2980  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2533
+Best metric at: 0.5078 0.3010  0.7357
+Cf: [[4620   42]
+ [  53   49]]
+Valid loss:0.0816
+Val metric mean prob: 0.2542
+Best metric at: 0.4900 0.2950  0.7349
+Cf: [[4613   49]
+ [  53   49]]
+Valid loss:0.0814
+Val metric mean prob: 0.2650
+Best metric at: 0.5000 0.2980  0.7400
+Cf: [[4614   48]
+ [  52   50]]
+Valid loss:0.0825
+Val metric mean prob: 0.2661
+Best metric at: 0.5026 0.3360  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0820
+Val metric mean prob: 0.2596
+Best metric at: 0.4925 0.3030  0.7350
+Cf: [[4614   48]
+ [  53   49]]
+Valid loss:0.0813
+Val metric mean prob: 0.2521
+Best metric at: 0.5053 0.3080  0.7310
+Cf: [[4622   40]
+ [  54   48]]
+Valid loss:0.0812
+Val metric mean prob: 0.2505
+Best metric at: 0.5027 0.3120  0.7263
+Cf: [[4624   38]
+ [  55   47]]
+Valid loss:0.0812
+Val metric mean prob: 0.2489
+Best metric at: 0.5000 0.2980  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Date :02/22/2023, 13:07:59
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Date :02/22/2023, 13:08:58
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0824
+Val metric mean prob: 0.2701
+Valid loss:0.0824
+Val metric mean prob: 0.2701
+Best metric at: 0.4878 0.3050  0.7394
+Cf: [[4609   53]
+ [  52   50]]
+Date :02/22/2023, 13:25:16
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0824
+Val metric mean prob: 0.2701
+Best metric at: 0.4878 0.3050  0.7394
+Cf: [[4609   53]
+ [  52   50]]
+Valid loss:0.0818
+Val metric mean prob: 0.2563
+Best metric at: 0.4809 0.3440  0.7117
+Cf: [[4625   37]
+ [  58   44]]
+Valid loss:0.0830
+Val metric mean prob: 0.2863
+Best metric at: 0.4831 0.3710  0.7072
+Cf: [[4629   33]
+ [  59   43]]
+Valid loss:0.0839
+Val metric mean prob: 0.2577
+Best metric at: 0.4878 0.4260  0.6937
+Cf: [[4640   22]
+ [  62   40]]
+Valid loss:0.0866
+Val metric mean prob: 0.2665
+Best metric at: 0.4912 0.3840  0.7030
+Cf: [[4635   27]
+ [  60   42]]
+Valid loss:0.0871
+Val metric mean prob: 0.2659
+Best metric at: 0.4878 0.4470  0.6937
+Cf: [[4640   22]
+ [  62   40]]
+Valid loss:0.0839
+Val metric mean prob: 0.2740
+Best metric at: 0.4852 0.4030  0.6982
+Cf: [[4636   26]
+ [  61   41]]
+Valid loss:0.0828
+Val metric mean prob: 0.2841
+Best metric at: 0.4832 0.4660  0.6753
+Cf: [[4651   11]
+ [  66   36]]
+Valid loss:0.0821
+Val metric mean prob: 0.2477
+Best metric at: 0.4974 0.2860  0.7307
+Cf: [[4619   43]
+ [  54   48]]
+Valid loss:0.0815
+Val metric mean prob: 0.2555
+Best metric at: 0.5026 0.3140  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0819
+Val metric mean prob: 0.2621
+Best metric at: 0.4925 0.3030  0.7350
+Cf: [[4614   48]
+ [  53   49]]
+Valid loss:nan
+Val metric mean prob: 0.0000
+Best metric at: 0.0000 0.0000  0.0000
+Cf: None
+Valid loss:0.0838
+Val metric mean prob: 0.2675
+Best metric at: 0.4906 0.4110  0.6892
+Cf: [[4644   18]
+ [  63   39]]
+Valid loss:0.0823
+Val metric mean prob: 0.2473
+Best metric at: 0.4808 0.2960  0.7391
+Cf: [[4606   56]
+ [  52   50]]
+Valid loss:0.0810
+Val metric mean prob: 0.2637
+Best metric at: 0.5025 0.2870  0.7401
+Cf: [[4615   47]
+ [  52   50]]
+Valid loss:0.0827
+Val metric mean prob: 0.2747
+Best metric at: 0.4767 0.3780  0.6979
+Cf: [[4633   29]
+ [  61   41]]
+Valid loss:0.0814
+Val metric mean prob: 0.2568
+Best metric at: 0.5000 0.2970  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0829
+Val metric mean prob: 0.2613
+Best metric at: 0.4908 0.3920  0.6938
+Cf: [[4641   21]
+ [  62   40]]
+Valid loss:0.0869
+Val metric mean prob: 0.2847
+Best metric at: 0.4839 0.3150  0.7164
+Cf: [[4623   39]
+ [  57   45]]
+Valid loss:0.0852
+Val metric mean prob: 0.2630
+Best metric at: 0.4946 0.3440  0.7214
+Cf: [[4624   38]
+ [  56   46]]
+Valid loss:0.0817
+Val metric mean prob: 0.2604
+Best metric at: 0.4975 0.2990  0.7398
+Cf: [[4613   49]
+ [  52   50]]
+Valid loss:0.0816
+Val metric mean prob: 0.2566
+Best metric at: 0.5000 0.2980  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2533
+Best metric at: 0.5078 0.3010  0.7357
+Cf: [[4620   42]
+ [  53   49]]
+Valid loss:0.0816
+Val metric mean prob: 0.2542
+Best metric at: 0.4900 0.2950  0.7349
+Cf: [[4613   49]
+ [  53   49]]
+Valid loss:0.0814
+Val metric mean prob: 0.2650
+Best metric at: 0.5000 0.2980  0.7400
+Cf: [[4614   48]
+ [  52   50]]
+Valid loss:0.0825
+Val metric mean prob: 0.2661
+Best metric at: 0.5026 0.3360  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0820
+Val metric mean prob: 0.2596
+Best metric at: 0.4925 0.3030  0.7350
+Cf: [[4614   48]
+ [  53   49]]
+Valid loss:0.0813
+Val metric mean prob: 0.2521
+Best metric at: 0.5053 0.3080  0.7310
+Cf: [[4622   40]
+ [  54   48]]
+Valid loss:0.0812
+Val metric mean prob: 0.2505
+Best metric at: 0.5027 0.3120  0.7263
+Cf: [[4624   38]
+ [  55   47]]
+Valid loss:0.0812
+Val metric mean prob: 0.2489
+Best metric at: 0.5000 0.2980  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2559
+Best metric at: 0.5052 0.3030  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0813
+Val metric mean prob: 0.2561
+Best metric at: 0.5026 0.3030  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0817
+Val metric mean prob: 0.2552
+Best metric at: 0.5000 0.3040  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0825
+Val metric mean prob: 0.2527
+Best metric at: 0.4952 0.2970  0.7489
+Cf: [[4606   56]
+ [  50   52]]
+Valid loss:0.0812
+Val metric mean prob: 0.2325
+Best metric at: 0.4952 0.2610  0.7489
+Cf: [[4606   56]
+ [  50   52]]
+Valid loss:0.0812
+Val metric mean prob: 0.2531
+Best metric at: 0.5052 0.3040  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0811
+Val metric mean prob: 0.2531
+Best metric at: 0.4878 0.2800  0.7394
+Cf: [[4609   53]
+ [  52   50]]
+Valid loss:0.0815
+Val metric mean prob: 0.2573
+Best metric at: 0.5026 0.3070  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0829
+Val metric mean prob: 0.2671
+Best metric at: 0.4976 0.3150  0.7444
+Cf: [[4610   52]
+ [  51   51]]
+Valid loss:0.0809
+Val metric mean prob: 0.2538
+Best metric at: 0.5052 0.2990  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0816
+Val metric mean prob: 0.2588
+Best metric at: 0.4809 0.3330  0.7117
+Cf: [[4625   37]
+ [  58   44]]
+Valid loss:0.0811
+Val metric mean prob: 0.2584
+Best metric at: 0.5078 0.3050  0.7357
+Cf: [[4620   42]
+ [  53   49]]
+Valid loss:0.0811
+Val metric mean prob: 0.2502
+Best metric at: 0.5000 0.2920  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2548
+Best metric at: 0.5026 0.3080  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0808
+Val metric mean prob: 0.2522
+Best metric at: 0.4975 0.2910  0.7353
+Cf: [[4616   46]
+ [  53   49]]
+Valid loss:0.0815
+Val metric mean prob: 0.2540
+Best metric at: 0.5053 0.3140  0.7310
+Cf: [[4622   40]
+ [  54   48]]
+Valid loss:0.0816
+Val metric mean prob: 0.2564
+Best metric at: 0.5000 0.3100  0.7308
+Cf: [[4620   42]
+ [  54   48]]
+Valid loss:0.0815
+Val metric mean prob: 0.2531
+Best metric at: 0.4974 0.3060  0.7307
+Cf: [[4619   43]
+ [  54   48]]
+Valid loss:0.0817
+Val metric mean prob: 0.2563
+Best metric at: 0.4975 0.2970  0.7398
+Cf: [[4613   49]
+ [  52   50]]
+Valid loss:0.0818
+Val metric mean prob: 0.2573
+Best metric at: 0.5026 0.3070  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0816
+Val metric mean prob: 0.2584
+Best metric at: 0.5026 0.3140  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0813
+Val metric mean prob: 0.2531
+Best metric at: 0.5052 0.3050  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0811
+Val metric mean prob: 0.2539
+Best metric at: 0.4974 0.3040  0.7307
+Cf: [[4619   43]
+ [  54   48]]
+Valid loss:0.0814
+Val metric mean prob: 0.2478
+Best metric at: 0.4975 0.2900  0.7398
+Cf: [[4613   49]
+ [  52   50]]
+Valid loss:0.0815
+Val metric mean prob: 0.2505
+Best metric at: 0.5026 0.2980  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2579
+Best metric at: 0.5000 0.2980  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0811
+Val metric mean prob: 0.2591
+Best metric at: 0.5026 0.2960  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0813
+Val metric mean prob: 0.2515
+Best metric at: 0.5000 0.2950  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0819
+Val metric mean prob: 0.2617
+Best metric at: 0.4878 0.2970  0.7394
+Cf: [[4609   53]
+ [  52   50]]
+Valid loss:0.0816
+Val metric mean prob: 0.2624
+Best metric at: 0.4975 0.2960  0.7398
+Cf: [[4613   49]
+ [  52   50]]
+Valid loss:0.0816
+Val metric mean prob: 0.2518
+Best metric at: 0.5026 0.3040  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0810
+Val metric mean prob: 0.2548
+Best metric at: 0.5000 0.3000  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0807
+Val metric mean prob: 0.2569
+Best metric at: 0.5078 0.2940  0.7357
+Cf: [[4620   42]
+ [  53   49]]
+Valid loss:0.0808
+Val metric mean prob: 0.2534
+Best metric at: 0.5052 0.2960  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0802
+Val metric mean prob: 0.2596
+Best metric at: 0.4975 0.2840  0.7353
+Cf: [[4616   46]
+ [  53   49]]
+Valid loss:0.0814
+Val metric mean prob: 0.2602
+Best metric at: 0.4975 0.3000  0.7353
+Cf: [[4616   46]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2577
+Best metric at: 0.5000 0.2890  0.7400
+Cf: [[4614   48]
+ [  52   50]]
+Valid loss:0.0812
+Val metric mean prob: 0.2540
+Best metric at: 0.5026 0.3010  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0813
+Val metric mean prob: 0.2561
+Best metric at: 0.5052 0.3030  0.7356
+Cf: [[4619   43]
+ [  53   49]]
+Valid loss:0.0824
+Val metric mean prob: 0.2560
+Best metric at: 0.4851 0.3080  0.7347
+Cf: [[4611   51]
+ [  53   49]]
+Valid loss:0.0814
+Val metric mean prob: 0.2573
+Best metric at: 0.5000 0.3050  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0808
+Val metric mean prob: 0.2517
+Best metric at: 0.5000 0.2890  0.7354
+Cf: [[4617   45]
+ [  53   49]]
+Valid loss:0.0811
+Val metric mean prob: 0.2570
+Best metric at: 0.5078 0.3060  0.7357
+Cf: [[4620   42]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2489
+Best metric at: 0.4975 0.2910  0.7353
+Cf: [[4616   46]
+ [  53   49]]
+Valid loss:0.0812
+Val metric mean prob: 0.2524
+Best metric at: 0.5026 0.3010  0.7355
+Cf: [[4618   44]
+ [  53   49]]
+Valid loss:0.0814
+Val metric mean prob: 0.2586
+Best metric at: 0.5026 0.3120  0.7309
+Cf: [[4621   41]
+ [  54   48]]
+Valid loss:0.0817
+Val metric mean prob: 0.2635
+Best metric at: 0.5000 0.3140  0.7308
+Cf: [[4620   42]
+ [  54   48]]
+Valid loss:0.0814
+Val metric mean prob: 0.2606
+Best metric at: 0.5000 0.3220  0.7262
+Cf: [[4623   39]
+ [  55   47]]
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0988
+Val metric mean prob: 0.1675
+Best metric at: 0.4138 0.4010  0.6928
+Cf: [[4624   47]
+ [  55   36]]
+Valid loss:0.0965
+Val metric mean prob: 0.1808
+Best metric at: 0.4023 0.4180  0.6872
+Cf: [[4623   48]
+ [  56   35]]
+Valid loss:0.0897
+Val metric mean prob: 0.1682
+Best metric at: 0.4270 0.3310  0.7035
+Cf: [[4622   49]
+ [  53   38]]
+Valid loss:0.0900
+Val metric mean prob: 0.2531
+Best metric at: 0.4387 0.4610  0.6836
+Cf: [[4641   30]
+ [  57   34]]
+Valid loss:0.0914
+Val metric mean prob: 0.2268
+Best metric at: 0.4459 0.4470  0.6890
+Cf: [[4640   31]
+ [  56   35]]
+Valid loss:0.0925
+Val metric mean prob: 0.2302
+Best metric at: 0.4211 0.4540  0.6931
+Cf: [[4627   44]
+ [  55   36]]
+Valid loss:0.0926
+Val metric mean prob: 0.2118
+Best metric at: 0.4444 0.4540  0.6941
+Cf: [[4636   35]
+ [  55   36]]
+Date :02/22/2023, 20:05:39
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0956
+Val metric mean prob: 0.2027
+Best metric at: 0.4186 0.4580  0.6930
+Cf: [[4626   45]
+ [  55   36]]
+Valid loss:0.0898
+Val metric mean prob: 0.2371
+Best metric at: 0.4648 0.4440  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Date :02/22/2023, 20:23:39
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0928
+Val metric mean prob: 0.2492
+Best metric at: 0.4364 0.4570  0.6937
+Cf: [[4633   38]
+ [  55   36]]
+Valid loss:0.0921
+Val metric mean prob: 0.2282
+Best metric at: 0.4260 0.4510  0.6933
+Cf: [[4629   42]
+ [  55   36]]
+Valid loss:0.0924
+Val metric mean prob: 0.2221
+Best metric at: 0.4403 0.4490  0.6888
+Cf: [[4638   33]
+ [  56   35]]
+Valid loss:0.0938
+Val metric mean prob: 0.2182
+Best metric at: 0.4337 0.4520  0.6936
+Cf: [[4632   39]
+ [  55   36]]
+Valid loss:0.0939
+Val metric mean prob: 0.2066
+Best metric at: 0.4167 0.4560  0.6878
+Cf: [[4629   42]
+ [  56   35]]
+Valid loss:0.0913
+Val metric mean prob: 0.2714
+Best metric at: 0.4659 0.3810  0.7206
+Cf: [[4627   44]
+ [  50   41]]
+Valid loss:0.0922
+Val metric mean prob: 0.2418
+Best metric at: 0.4458 0.4440  0.6992
+Cf: [[4633   38]
+ [  54   37]]
+Valid loss:0.0898
+Val metric mean prob: 0.2373
+Best metric at: 0.4648 0.4470  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Valid loss:0.0929
+Val metric mean prob: 0.2287
+Best metric at: 0.4444 0.4530  0.6941
+Cf: [[4636   35]
+ [  55   36]]
+Valid loss:0.0935
+Val metric mean prob: 0.2384
+Best metric at: 0.4268 0.4650  0.6882
+Cf: [[4633   38]
+ [  56   35]]
+Valid loss:0.0936
+Val metric mean prob: 0.1792
+Best metric at: 0.4253 0.3880  0.6984
+Cf: [[4625   46]
+ [  54   37]]
+Valid loss:0.0899
+Val metric mean prob: 0.2450
+Best metric at: 0.4722 0.4410  0.6848
+Cf: [[4652   19]
+ [  57   34]]
+Valid loss:0.0909
+Val metric mean prob: 0.2656
+Best metric at: 0.4768 0.4490  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+Valid loss:0.0909
+Val metric mean prob: 0.2639
+Best metric at: 0.4865 0.4600  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0914
+Val metric mean prob: 0.2579
+Best metric at: 0.4625 0.4370  0.6999
+Cf: [[4639   32]
+ [  54   37]]
+Valid loss:0.0914
+Val metric mean prob: 0.2597
+Best metric at: 0.4698 0.4640  0.6898
+Cf: [[4648   23]
+ [  56   35]]
+Valid loss:0.0906
+Val metric mean prob: 0.2606
+Best metric at: 0.4898 0.4560  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0909
+Val metric mean prob: 0.2561
+Best metric at: 0.4800 0.4580  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0918
+Val metric mean prob: 0.2482
+Best metric at: 0.4516 0.4660  0.6892
+Cf: [[4642   29]
+ [  56   35]]
+Valid loss:0.0905
+Val metric mean prob: 0.2517
+Best metric at: 0.4774 0.4210  0.7004
+Cf: [[4644   27]
+ [  54   37]]
+Valid loss:0.0920
+Val metric mean prob: 0.2575
+Best metric at: 0.4535 0.4160  0.7098
+Cf: [[4629   42]
+ [  52   39]]
+Valid loss:0.0909
+Val metric mean prob: 0.2572
+Best metric at: 0.4800 0.4580  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0908
+Val metric mean prob: 0.2538
+Best metric at: 0.4744 0.4340  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0911
+Val metric mean prob: 0.2586
+Best metric at: 0.4800 0.4600  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0933
+Val metric mean prob: 0.1930
+Best metric at: 0.4268 0.4420  0.6882
+Cf: [[4633   38]
+ [  56   35]]
+Valid loss:0.0860
+Val metric mean prob: 0.2488
+Best metric at: 0.4625 0.4490  0.6999
+Cf: [[4639   32]
+ [  54   37]]
+Valid loss:0.0938
+Val metric mean prob: 0.1929
+Best metric at: 0.4277 0.4310  0.6985
+Cf: [[4626   45]
+ [  54   37]]
+Valid loss:0.0915
+Val metric mean prob: 0.2319
+Best metric at: 0.4528 0.4550  0.6944
+Cf: [[4639   32]
+ [  55   36]]
+Valid loss:0.0934
+Val metric mean prob: 0.2156
+Best metric at: 0.4364 0.4480  0.6937
+Cf: [[4633   38]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2415
+Best metric at: 0.4730 0.4440  0.6900
+Cf: [[4649   22]
+ [  56   35]]
+Valid loss:0.0923
+Val metric mean prob: 0.2315
+Best metric at: 0.4224 0.4680  0.6830
+Cf: [[4635   36]
+ [  57   34]]
+Valid loss:0.0937
+Val metric mean prob: 0.2007
+Best metric at: 0.4161 0.4940  0.6674
+Cf: [[4644   27]
+ [  60   31]]
+Valid loss:0.0946
+Val metric mean prob: 0.1895
+Best metric at: 0.4260 0.4330  0.6933
+Cf: [[4629   42]
+ [  55   36]]
+Valid loss:0.0861
+Val metric mean prob: 0.2249
+Best metric at: 0.4295 0.4610  0.6730
+Cf: [[4645   26]
+ [  59   32]]
+Valid loss:0.0935
+Val metric mean prob: 0.2063
+Best metric at: 0.4337 0.4490  0.6936
+Cf: [[4632   39]
+ [  55   36]]
+Date :02/22/2023, 23:15:54
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0873
+Val metric mean prob: 0.2262
+Best metric at: 0.4526 0.5230  0.6687
+Cf: [[4656   15]
+ [  60   31]]
+Valid loss:0.0880
+Val metric mean prob: 0.2486
+Best metric at: 0.4625 0.4390  0.6999
+Cf: [[4639   32]
+ [  54   37]]
+Valid loss:0.0883
+Val metric mean prob: 0.2610
+Best metric at: 0.4698 0.4660  0.6898
+Cf: [[4648   23]
+ [  56   35]]
+Valid loss:0.0884
+Val metric mean prob: 0.2590
+Best metric at: 0.4654 0.4520  0.7000
+Cf: [[4640   31]
+ [  54   37]]
+Valid loss:0.0875
+Val metric mean prob: 0.2557
+Best metric at: 0.4605 0.4620  0.6895
+Cf: [[4645   26]
+ [  56   35]]
+Valid loss:0.0897
+Val metric mean prob: 0.2505
+Best metric at: 0.4828 0.4520  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0887
+Val metric mean prob: 0.2387
+Best metric at: 0.4762 0.4610  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0864
+Val metric mean prob: 0.2493
+Best metric at: 0.4416 0.4540  0.6837
+Cf: [[4642   29]
+ [  57   34]]
+Valid loss:0.0880
+Val metric mean prob: 0.2609
+Best metric at: 0.4698 0.4580  0.6898
+Cf: [[4648   23]
+ [  56   35]]
+Valid loss:0.0855
+Val metric mean prob: 0.2325
+Best metric at: 0.4444 0.4790  0.6736
+Cf: [[4650   21]
+ [  59   32]]
+Valid loss:0.0887
+Val metric mean prob: 0.2436
+Best metric at: 0.4762 0.4370  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0879
+Val metric mean prob: 0.2400
+Best metric at: 0.4690 0.4450  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0896
+Val metric mean prob: 0.2385
+Best metric at: 0.4648 0.4460  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Valid loss:0.0880
+Val metric mean prob: 0.2449
+Best metric at: 0.4762 0.4540  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0881
+Val metric mean prob: 0.2464
+Best metric at: 0.4762 0.4580  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0896
+Val metric mean prob: 0.2376
+Best metric at: 0.4648 0.4450  0.6794
+Cf: [[4653   18]
+ [  58   33]]
+Valid loss:0.0886
+Val metric mean prob: 0.2454
+Best metric at: 0.4663 0.4260  0.7052
+Cf: [[4637   34]
+ [  53   38]]
+Valid loss:0.0882
+Val metric mean prob: 0.2421
+Best metric at: 0.4795 0.4500  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0879
+Val metric mean prob: 0.2431
+Best metric at: 0.4795 0.4470  0.6902
+Cf: [[4651   20]
+ [  56   35]]
+Valid loss:0.0886
+Val metric mean prob: 0.2544
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2556
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0886
+Val metric mean prob: 0.2543
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2551
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0885
+Val metric mean prob: 0.2552
+Best metric at: 0.4865 0.4680  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0882
+Val metric mean prob: 0.2565
+Best metric at: 0.4706 0.4560  0.6950
+Cf: [[4645   26]
+ [  55   36]]
+Valid loss:0.0886
+Val metric mean prob: 0.2544
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2528
+Best metric at: 0.4898 0.4590  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0882
+Val metric mean prob: 0.2554
+Best metric at: 0.4706 0.4560  0.6950
+Cf: [[4645   26]
+ [  55   36]]
+Valid loss:0.0885
+Val metric mean prob: 0.2550
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2573
+Best metric at: 0.4898 0.4660  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0908
+Val metric mean prob: 0.2674
+Best metric at: 0.4737 0.4390  0.6951
+Cf: [[4646   25]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2546
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0881
+Val metric mean prob: 0.2490
+Best metric at: 0.4596 0.4330  0.6998
+Cf: [[4638   33]
+ [  54   37]]
+Valid loss:0.0889
+Val metric mean prob: 0.2543
+Best metric at: 0.4898 0.4610  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2558
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0878
+Val metric mean prob: 0.2474
+Best metric at: 0.4596 0.4410  0.6998
+Cf: [[4638   33]
+ [  54   37]]
+Valid loss:0.0879
+Val metric mean prob: 0.2552
+Best metric at: 0.4605 0.4580  0.6895
+Cf: [[4645   26]
+ [  56   35]]
+Valid loss:0.0884
+Val metric mean prob: 0.2552
+Best metric at: 0.4832 0.4670  0.6954
+Cf: [[4649   22]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2535
+Best metric at: 0.4865 0.4580  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0884
+Val metric mean prob: 0.2547
+Best metric at: 0.4898 0.4670  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0884
+Val metric mean prob: 0.2519
+Best metric at: 0.4730 0.4680  0.6900
+Cf: [[4649   22]
+ [  56   35]]
+Valid loss:0.0892
+Val metric mean prob: 0.2551
+Best metric at: 0.4898 0.4580  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0880
+Val metric mean prob: 0.2507
+Best metric at: 0.4768 0.4530  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+Valid loss:0.0894
+Val metric mean prob: 0.2552
+Best metric at: 0.4898 0.4550  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0888
+Val metric mean prob: 0.2561
+Best metric at: 0.4932 0.4670  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0876
+Val metric mean prob: 0.2465
+Best metric at: 0.4596 0.4350  0.6998
+Cf: [[4638   33]
+ [  54   37]]
+Valid loss:0.0885
+Val metric mean prob: 0.2531
+Best metric at: 0.4865 0.4630  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0895
+Val metric mean prob: 0.2546
+Best metric at: 0.4898 0.4540  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0876
+Val metric mean prob: 0.2454
+Best metric at: 0.4557 0.4380  0.6945
+Cf: [[4640   31]
+ [  55   36]]
+Valid loss:0.0896
+Val metric mean prob: 0.2534
+Best metric at: 0.4898 0.4530  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0894
+Val metric mean prob: 0.2559
+Best metric at: 0.4898 0.4570  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0885
+Val metric mean prob: 0.2546
+Best metric at: 0.4898 0.4600  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0888
+Val metric mean prob: 0.2557
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0890
+Val metric mean prob: 0.2554
+Best metric at: 0.4898 0.4610  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2567
+Best metric at: 0.4898 0.4590  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0891
+Val metric mean prob: 0.2548
+Best metric at: 0.4932 0.4590  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0887
+Val metric mean prob: 0.2570
+Best metric at: 0.4898 0.4660  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0890
+Val metric mean prob: 0.2558
+Best metric at: 0.4898 0.4640  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0888
+Val metric mean prob: 0.2558
+Best metric at: 0.4932 0.4670  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0886
+Val metric mean prob: 0.2569
+Best metric at: 0.4865 0.4650  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0889
+Val metric mean prob: 0.2569
+Best metric at: 0.4932 0.4650  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Valid loss:0.0884
+Val metric mean prob: 0.2518
+Best metric at: 0.4800 0.4530  0.6953
+Cf: [[4648   23]
+ [  55   36]]
+Valid loss:0.0881
+Val metric mean prob: 0.2527
+Best metric at: 0.4698 0.4550  0.6898
+Cf: [[4648   23]
+ [  56   35]]
+Valid loss:0.0891
+Val metric mean prob: 0.2567
+Best metric at: 0.4898 0.4660  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0879
+Val metric mean prob: 0.2498
+Best metric at: 0.4675 0.4520  0.6949
+Cf: [[4644   27]
+ [  55   36]]
+Valid loss:0.0890
+Val metric mean prob: 0.2550
+Best metric at: 0.4898 0.4620  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0895
+Val metric mean prob: 0.2556
+Best metric at: 0.4898 0.4570  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0885
+Val metric mean prob: 0.2559
+Best metric at: 0.4865 0.4650  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0886
+Val metric mean prob: 0.2557
+Best metric at: 0.4898 0.4600  0.6957
+Cf: [[4651   20]
+ [  55   36]]
+Valid loss:0.0885
+Val metric mean prob: 0.2533
+Best metric at: 0.4828 0.4660  0.6903
+Cf: [[4652   19]
+ [  56   35]]
+Valid loss:0.0885
+Val metric mean prob: 0.2573
+Best metric at: 0.4865 0.4670  0.6956
+Cf: [[4650   21]
+ [  55   36]]
+Valid loss:0.0886
+Val metric mean prob: 0.2560
+Best metric at: 0.4932 0.4660  0.6958
+Cf: [[4652   19]
+ [  55   36]]
+Date :02/23/2023, 05:19:10
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0904
+Val metric mean prob: 0.2584
+Best metric at: 0.4868 0.4690  0.7007
+Cf: [[4647   24]
+ [  54   37]]
+Valid loss:0.0843
+Val metric mean prob: 0.2656
+Best metric at: 0.5000 0.4400  0.7063
+Cf: [[4648   23]
+ [  53   38]]
+Valid loss:0.0886
+Val metric mean prob: 0.2863
+Best metric at: 0.5000 0.4780  0.7012
+Cf: [[4651   20]
+ [  54   37]]
+Valid loss:0.0867
+Val metric mean prob: 0.2227
+Best metric at: 0.4503 0.4510  0.6840
+Cf: [[4645   26]
+ [  57   34]]
+Valid loss:0.0924
+Val metric mean prob: 0.3024
+Best metric at: 0.5166 0.4370  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0897
+Val metric mean prob: 0.2422
+Best metric at: 0.4762 0.4660  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0904
+Val metric mean prob: 0.2584
+Best metric at: 0.4868 0.4690  0.7007
+Cf: [[4647   24]
+ [  54   37]]
+Valid loss:0.0843
+Val metric mean prob: 0.2656
+Best metric at: 0.5000 0.4400  0.7063
+Cf: [[4648   23]
+ [  53   38]]
+Valid loss:0.0886
+Val metric mean prob: 0.2863
+Best metric at: 0.5000 0.4780  0.7012
+Cf: [[4651   20]
+ [  54   37]]
+Valid loss:0.0867
+Val metric mean prob: 0.2227
+Best metric at: 0.4503 0.4510  0.6840
+Cf: [[4645   26]
+ [  57   34]]
+Valid loss:0.0924
+Val metric mean prob: 0.3024
+Best metric at: 0.5166 0.4370  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0897
+Val metric mean prob: 0.2422
+Best metric at: 0.4762 0.4660  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0913
+Val metric mean prob: 0.2390
+Best metric at: 0.4744 0.4650  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0882
+Val metric mean prob: 0.2433
+Best metric at: 0.4667 0.4700  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+Valid loss:0.0864
+Val metric mean prob: 0.2666
+Best metric at: 0.4966 0.4760  0.7010
+Cf: [[4650   21]
+ [  54   37]]
+Valid loss:0.0895
+Val metric mean prob: 0.2407
+Best metric at: 0.4805 0.4800  0.7005
+Cf: [[4645   26]
+ [  54   37]]
+Valid loss:0.0904
+Val metric mean prob: 0.2583
+Best metric at: 0.4868 0.4690  0.7007
+Cf: [[4647   24]
+ [  54   37]]
+Valid loss:0.0843
+Val metric mean prob: 0.2653
+Best metric at: 0.5000 0.4390  0.7063
+Cf: [[4648   23]
+ [  53   38]]
+Valid loss:0.0886
+Val metric mean prob: 0.2861
+Best metric at: 0.5000 0.4780  0.7012
+Cf: [[4651   20]
+ [  54   37]]
+Valid loss:0.0867
+Val metric mean prob: 0.2225
+Best metric at: 0.4503 0.4500  0.6840
+Cf: [[4645   26]
+ [  57   34]]
+Valid loss:0.0923
+Val metric mean prob: 0.3026
+Best metric at: 0.5166 0.4390  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0896
+Val metric mean prob: 0.2419
+Best metric at: 0.4762 0.4680  0.6901
+Cf: [[4650   21]
+ [  56   35]]
+Valid loss:0.0913
+Val metric mean prob: 0.2388
+Best metric at: 0.4744 0.4650  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0881
+Val metric mean prob: 0.2423
+Best metric at: 0.4667 0.4710  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+Valid loss:0.0863
+Val metric mean prob: 0.2661
+Best metric at: 0.4967 0.4590  0.7062
+Cf: [[4647   24]
+ [  53   38]]
+Valid loss:0.0895
+Val metric mean prob: 0.2406
+Best metric at: 0.4780 0.4610  0.7056
+Cf: [[4641   30]
+ [  53   38]]
+Date :02/23/2023, 07:47:56
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0878
+Val metric mean prob: 0.2474
+Best metric at: 0.4845 0.4260  0.7110
+Cf: [[4640   31]
+ [  52   39]]
+Valid loss:0.0821
+Val metric mean prob: 0.2071
+Best metric at: 0.4521 0.3640  0.6790
+Cf: [[4649   22]
+ [  58   33]]
+Valid loss:0.0858
+Val metric mean prob: 0.2263
+Best metric at: 0.4667 0.4340  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+Valid loss:0.0855
+Val metric mean prob: 0.2257
+Best metric at: 0.4533 0.4440  0.6841
+Cf: [[4646   25]
+ [  57   34]]
+Valid loss:0.0909
+Val metric mean prob: 0.2518
+Best metric at: 0.4768 0.4690  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+Valid loss:0.0844
+Val metric mean prob: 0.2653
+Best metric at: 0.5000 0.4400  0.7063
+Cf: [[4648   23]
+ [  53   38]]
+Valid loss:0.0883
+Val metric mean prob: 0.2817
+Best metric at: 0.5034 0.4800  0.7013
+Cf: [[4652   19]
+ [  54   37]]
+Valid loss:0.0870
+Val metric mean prob: 0.2318
+Best metric at: 0.4595 0.4610  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0923
+Val metric mean prob: 0.3021
+Best metric at: 0.5166 0.4380  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0898
+Val metric mean prob: 0.2386
+Best metric at: 0.4690 0.4380  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0906
+Val metric mean prob: 0.2397
+Best metric at: 0.4698 0.4550  0.6898
+Cf: [[4648   23]
+ [  56   35]]
+Valid loss:0.0888
+Val metric mean prob: 0.2438
+Best metric at: 0.4636 0.4580  0.6896
+Cf: [[4646   25]
+ [  56   35]]
+Valid loss:0.0865
+Val metric mean prob: 0.2651
+Best metric at: 0.4966 0.4750  0.7010
+Cf: [[4650   21]
+ [  54   37]]
+Valid loss:0.0901
+Val metric mean prob: 0.2370
+Best metric at: 0.4750 0.4590  0.7055
+Cf: [[4640   31]
+ [  53   38]]
+Valid loss:0.0906
+Val metric mean prob: 0.2547
+Best metric at: 0.4785 0.4290  0.7108
+Cf: [[4638   33]
+ [  52   39]]
+Valid loss:0.0847
+Val metric mean prob: 0.2644
+Best metric at: 0.4872 0.4330  0.7059
+Cf: [[4644   27]
+ [  53   38]]
+Valid loss:0.0884
+Val metric mean prob: 0.2829
+Best metric at: 0.5103 0.4900  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0863
+Val metric mean prob: 0.2338
+Best metric at: 0.4595 0.4550  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0933
+Val metric mean prob: 0.3044
+Best metric at: 0.5205 0.4490  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0897
+Val metric mean prob: 0.2387
+Best metric at: 0.4690 0.4370  0.6847
+Cf: [[4651   20]
+ [  57   34]]
+Valid loss:0.0902
+Val metric mean prob: 0.2411
+Best metric at: 0.4667 0.4410  0.6897
+Cf: [[4647   24]
+ [  56   35]]
+Valid loss:0.0885
+Val metric mean prob: 0.2449
+Best metric at: 0.4706 0.4530  0.6950
+Cf: [[4645   26]
+ [  55   36]]
+Valid loss:0.0866
+Val metric mean prob: 0.2678
+Best metric at: 0.4967 0.4570  0.7062
+Cf: [[4647   24]
+ [  53   38]]
+Valid loss:0.0890
+Val metric mean prob: 0.2477
+Best metric at: 0.4768 0.4870  0.6952
+Cf: [[4647   24]
+ [  55   36]]
+Date :02/23/2023, 09:50:52
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0902
+Val metric mean prob: 0.2545
+Best metric at: 0.4815 0.4330  0.7109
+Cf: [[4639   32]
+ [  52   39]]
+Valid loss:0.0847
+Val metric mean prob: 0.2630
+Best metric at: 0.4872 0.4300  0.7059
+Cf: [[4644   27]
+ [  53   38]]
+Valid loss:0.0883
+Val metric mean prob: 0.2816
+Best metric at: 0.5035 0.4950  0.6961
+Cf: [[4655   16]
+ [  55   36]]
+Valid loss:0.0862
+Val metric mean prob: 0.2335
+Best metric at: 0.4595 0.4540  0.6844
+Cf: [[4648   23]
+ [  57   34]]
+Valid loss:0.0918
+Val metric mean prob: 0.3053
+Best metric at: 0.5135 0.4570  0.7068
+Cf: [[4652   19]
+ [  53   38]]
+Valid loss:0.0896
+Val metric mean prob: 0.2385
+Best metric at: 0.4684 0.3850  0.7001
+Cf: [[4641   30]
+ [  54   37]]
+Valid loss:0.0899
+Val metric mean prob: 0.2410
+Best metric at: 0.4681 0.4740  0.6795
+Cf: [[4654   17]
+ [  58   33]]
+Valid loss:0.0879
+Val metric mean prob: 0.2415
+Best metric at: 0.4626 0.4650  0.6845
+Cf: [[4649   22]
+ [  57   34]]
+Valid loss:0.0864
+Val metric mean prob: 0.2648
+Best metric at: 0.4933 0.4670  0.7009
+Cf: [[4649   22]
+ [  54   37]]
+Valid loss:0.0882
+Val metric mean prob: 0.2482
+Best metric at: 0.4744 0.4530  0.7003
+Cf: [[4643   28]
+ [  54   37]]
+Valid loss:0.0904
+Val metric mean prob: 0.2805
+Best metric at: 0.5101 0.4820  0.7067
+Cf: [[4651   20]
+ [  53   38]]
+Valid loss:0.0904
+Val metric mean prob: 0.2795
+Best metric at: 0.5101 0.4810  0.7067
+Cf: [[4651   20]
+ [  53   38]]
+Valid loss:0.0897
+Val metric mean prob: 0.2723
+Best metric at: 0.5139 0.4860  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0882
+Val metric mean prob: 0.2546
+Best metric at: 0.4906 0.4400  0.7112
+Cf: [[4642   29]
+ [  52   39]]
+Valid loss:0.0922
+Val metric mean prob: 0.2948
+Best metric at: 0.5161 0.4340  0.7172
+Cf: [[4647   24]
+ [  51   40]]
+Valid loss:0.0880
+Val metric mean prob: 0.2489
+Best metric at: 0.4845 0.4440  0.7110
+Cf: [[4640   31]
+ [  52   39]]
+Valid loss:0.0883
+Val metric mean prob: 0.2722
+Best metric at: 0.5034 0.4800  0.7013
+Cf: [[4652   19]
+ [  54   37]]
+Valid loss:0.0886
+Val metric mean prob: 0.2501
+Best metric at: 0.4845 0.4390  0.7110
+Cf: [[4640   31]
+ [  52   39]]
+Valid loss:0.0933
+Val metric mean prob: 0.2999
+Best metric at: 0.5132 0.4410  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0879
+Val metric mean prob: 0.2701
+Best metric at: 0.5068 0.4850  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0883
+Val metric mean prob: 0.2635
+Best metric at: 0.5139 0.4920  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0883
+Val metric mean prob: 0.2643
+Best metric at: 0.5139 0.4920  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0884
+Val metric mean prob: 0.2536
+Best metric at: 0.4933 0.4820  0.7009
+Cf: [[4649   22]
+ [  54   37]]
+Valid loss:0.0889
+Val metric mean prob: 0.2854
+Best metric at: 0.5068 0.4900  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0882
+Val metric mean prob: 0.2691
+Best metric at: 0.5035 0.4950  0.6961
+Cf: [[4655   16]
+ [  55   36]]
+Valid loss:0.0962
+Val metric mean prob: 0.3008
+Best metric at: 0.5139 0.4680  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0896
+Val metric mean prob: 0.2871
+Best metric at: 0.5103 0.4890  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0890
+Val metric mean prob: 0.2572
+Best metric at: 0.4933 0.4800  0.7009
+Cf: [[4649   22]
+ [  54   37]]
+Valid loss:0.0889
+Val metric mean prob: 0.2626
+Best metric at: 0.5068 0.4860  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0888
+Val metric mean prob: 0.2516
+Best metric at: 0.4848 0.4230  0.7161
+Cf: [[4637   34]
+ [  51   40]]
+Valid loss:0.0885
+Val metric mean prob: 0.2664
+Best metric at: 0.5068 0.4880  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0881
+Val metric mean prob: 0.2644
+Best metric at: 0.5035 0.4900  0.6961
+Cf: [[4655   16]
+ [  55   36]]
+Valid loss:0.0884
+Val metric mean prob: 0.2642
+Best metric at: 0.5101 0.4760  0.7067
+Cf: [[4651   20]
+ [  53   38]]
+Valid loss:0.0884
+Val metric mean prob: 0.2769
+Best metric at: 0.5103 0.4930  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0903
+Val metric mean prob: 0.2925
+Best metric at: 0.5065 0.4480  0.7117
+Cf: [[4647   24]
+ [  52   39]]
+Valid loss:0.0886
+Val metric mean prob: 0.2616
+Best metric at: 0.5034 0.4870  0.7013
+Cf: [[4652   19]
+ [  54   37]]
+Valid loss:0.0888
+Val metric mean prob: 0.2728
+Best metric at: 0.5139 0.4890  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0892
+Val metric mean prob: 0.2607
+Best metric at: 0.4966 0.4800  0.7010
+Cf: [[4650   21]
+ [  54   37]]
+Valid loss:0.0883
+Val metric mean prob: 0.2810
+Best metric at: 0.5205 0.4830  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0895
+Val metric mean prob: 0.2919
+Best metric at: 0.5128 0.4410  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0882
+Val metric mean prob: 0.2790
+Best metric at: 0.5103 0.4900  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0881
+Val metric mean prob: 0.2796
+Best metric at: 0.5205 0.4770  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0881
+Val metric mean prob: 0.2833
+Best metric at: 0.5205 0.4730  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0885
+Val metric mean prob: 0.2816
+Best metric at: 0.5170 0.4790  0.7069
+Cf: [[4653   18]
+ [  53   38]]
+Valid loss:0.0893
+Val metric mean prob: 0.2858
+Best metric at: 0.5205 0.4880  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0893
+Val metric mean prob: 0.2872
+Best metric at: 0.5241 0.4870  0.7071
+Cf: [[4655   16]
+ [  53   38]]
+Valid loss:0.0893
+Val metric mean prob: 0.2932
+Best metric at: 0.5325 0.4280  0.7229
+Cf: [[4649   22]
+ [  50   41]]
+Valid loss:0.0894
+Val metric mean prob: 0.2954
+Best metric at: 0.5263 0.4260  0.7175
+Cf: [[4650   21]
+ [  51   40]]
+Valid loss:0.0897
+Val metric mean prob: 0.2984
+Best metric at: 0.5195 0.4380  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0895
+Val metric mean prob: 0.2954
+Best metric at: 0.5298 0.4300  0.7176
+Cf: [[4651   20]
+ [  51   40]]
+Valid loss:0.0896
+Val metric mean prob: 0.2959
+Best metric at: 0.5298 0.4270  0.7176
+Cf: [[4651   20]
+ [  51   40]]
+Valid loss:0.0897
+Val metric mean prob: 0.2961
+Best metric at: 0.5298 0.4290  0.7176
+Cf: [[4651   20]
+ [  51   40]]
+Valid loss:0.0896
+Val metric mean prob: 0.2958
+Best metric at: 0.5298 0.4280  0.7176
+Cf: [[4651   20]
+ [  51   40]]
+Valid loss:0.0922
+Val metric mean prob: 0.3009
+Best metric at: 0.5135 0.4440  0.7068
+Cf: [[4652   19]
+ [  53   38]]
+Valid loss:0.0902
+Val metric mean prob: 0.2952
+Best metric at: 0.5128 0.4490  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0910
+Val metric mean prob: 0.2959
+Best metric at: 0.5185 0.3920  0.7277
+Cf: [[4642   29]
+ [  49   42]]
+Valid loss:0.0889
+Val metric mean prob: 0.2933
+Best metric at: 0.5161 0.4430  0.7172
+Cf: [[4647   24]
+ [  51   40]]
+Valid loss:0.0914
+Val metric mean prob: 0.2992
+Best metric at: 0.5132 0.4470  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0883
+Val metric mean prob: 0.2896
+Best metric at: 0.5128 0.4370  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0902
+Val metric mean prob: 0.2985
+Best metric at: 0.5132 0.4490  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0889
+Val metric mean prob: 0.2874
+Best metric at: 0.5068 0.4890  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0887
+Val metric mean prob: 0.2940
+Best metric at: 0.5229 0.4420  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0890
+Val metric mean prob: 0.2900
+Best metric at: 0.5128 0.4370  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0880
+Val metric mean prob: 0.2845
+Best metric at: 0.5103 0.4900  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0899
+Val metric mean prob: 0.2968
+Best metric at: 0.5229 0.4440  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0891
+Val metric mean prob: 0.2916
+Best metric at: 0.5128 0.4440  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0928
+Val metric mean prob: 0.3020
+Best metric at: 0.5132 0.4310  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0957
+Val metric mean prob: 0.3022
+Best metric at: 0.5000 0.4300  0.7012
+Cf: [[4651   20]
+ [  54   37]]
+Valid loss:0.0877
+Val metric mean prob: 0.2920
+Best metric at: 0.5128 0.4190  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0889
+Val metric mean prob: 0.2871
+Best metric at: 0.5161 0.4380  0.7172
+Cf: [[4647   24]
+ [  51   40]]
+Valid loss:0.0881
+Val metric mean prob: 0.2901
+Best metric at: 0.5128 0.4290  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0888
+Val metric mean prob: 0.2942
+Best metric at: 0.5195 0.4340  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0884
+Val metric mean prob: 0.2886
+Best metric at: 0.5128 0.4340  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0909
+Val metric mean prob: 0.2973
+Best metric at: 0.5166 0.4410  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0896
+Val metric mean prob: 0.2963
+Best metric at: 0.5229 0.4410  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0901
+Val metric mean prob: 0.2928
+Best metric at: 0.5125 0.3950  0.7223
+Cf: [[4643   28]
+ [  50   41]]
+Valid loss:0.0888
+Val metric mean prob: 0.2857
+Best metric at: 0.5103 0.4900  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0908
+Val metric mean prob: 0.2996
+Best metric at: 0.5166 0.4370  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0886
+Val metric mean prob: 0.2861
+Best metric at: 0.5205 0.4880  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0867
+Val metric mean prob: 0.2856
+Best metric at: 0.5103 0.4730  0.7015
+Cf: [[4654   17]
+ [  54   37]]
+Valid loss:0.0876
+Val metric mean prob: 0.2915
+Best metric at: 0.5190 0.4120  0.7225
+Cf: [[4645   26]
+ [  50   41]]
+Valid loss:0.0902
+Val metric mean prob: 0.2966
+Best metric at: 0.5229 0.4410  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0892
+Val metric mean prob: 0.2954
+Best metric at: 0.5195 0.4470  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0906
+Val metric mean prob: 0.2992
+Best metric at: 0.5132 0.4360  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0879
+Val metric mean prob: 0.2926
+Best metric at: 0.5161 0.4340  0.7172
+Cf: [[4647   24]
+ [  51   40]]
+Valid loss:0.0889
+Val metric mean prob: 0.2882
+Best metric at: 0.5128 0.4380  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0896
+Val metric mean prob: 0.2932
+Best metric at: 0.5195 0.4350  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0884
+Val metric mean prob: 0.2922
+Best metric at: 0.5195 0.4370  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0888
+Val metric mean prob: 0.2857
+Best metric at: 0.5139 0.4920  0.7016
+Cf: [[4655   16]
+ [  54   37]]
+Valid loss:0.0902
+Val metric mean prob: 0.2980
+Best metric at: 0.5096 0.4480  0.7170
+Cf: [[4645   26]
+ [  51   40]]
+Valid loss:0.0874
+Val metric mean prob: 0.2904
+Best metric at: 0.5128 0.4180  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0895
+Val metric mean prob: 0.2964
+Best metric at: 0.5229 0.4420  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0907
+Val metric mean prob: 0.2996
+Best metric at: 0.5166 0.4350  0.7120
+Cf: [[4650   21]
+ [  52   39]]
+Valid loss:0.0892
+Val metric mean prob: 0.2925
+Best metric at: 0.5195 0.4340  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0881
+Val metric mean prob: 0.2915
+Best metric at: 0.5195 0.4380  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0905
+Val metric mean prob: 0.2983
+Best metric at: 0.5132 0.4360  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0878
+Val metric mean prob: 0.2769
+Best metric at: 0.5068 0.4910  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0890
+Val metric mean prob: 0.2858
+Best metric at: 0.5205 0.4860  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Valid loss:0.0876
+Val metric mean prob: 0.2912
+Best metric at: 0.5161 0.4290  0.7172
+Cf: [[4647   24]
+ [  51   40]]
+Valid loss:0.0883
+Val metric mean prob: 0.2944
+Best metric at: 0.5195 0.4360  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0897
+Val metric mean prob: 0.2936
+Best metric at: 0.5195 0.4350  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0904
+Val metric mean prob: 0.2975
+Best metric at: 0.5195 0.4340  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0891
+Val metric mean prob: 0.2941
+Best metric at: 0.5195 0.4320  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0908
+Val metric mean prob: 0.2994
+Best metric at: 0.5098 0.4540  0.7118
+Cf: [[4648   23]
+ [  52   39]]
+Valid loss:0.0903
+Val metric mean prob: 0.2980
+Best metric at: 0.5132 0.4440  0.7119
+Cf: [[4649   22]
+ [  52   39]]
+Valid loss:0.0897
+Val metric mean prob: 0.2963
+Best metric at: 0.5229 0.4380  0.7174
+Cf: [[4649   22]
+ [  51   40]]
+Valid loss:0.0884
+Val metric mean prob: 0.2848
+Best metric at: 0.5068 0.4900  0.7014
+Cf: [[4653   18]
+ [  54   37]]
+Valid loss:0.0889
+Val metric mean prob: 0.2901
+Best metric at: 0.5128 0.4380  0.7171
+Cf: [[4646   25]
+ [  51   40]]
+Valid loss:0.0900
+Val metric mean prob: 0.2957
+Best metric at: 0.5263 0.4390  0.7175
+Cf: [[4650   21]
+ [  51   40]]
+Valid loss:0.0882
+Val metric mean prob: 0.2919
+Best metric at: 0.5195 0.4360  0.7173
+Cf: [[4648   23]
+ [  51   40]]
+Valid loss:0.0891
+Val metric mean prob: 0.2866
+Best metric at: 0.5205 0.4880  0.7070
+Cf: [[4654   17]
+ [  53   38]]
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Date :02/23/2023, 19:05:43
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :15
+Valid loss:0.0843
+Val metric mean prob: 0.2729
+Best metric at: 0.4914 0.3820  0.7076
+Cf: [[4632   30]
+ [  59   43]]
+Valid loss:0.0873
+Val metric mean prob: 0.2805
+Best metric at: 0.4656 0.3290  0.7111
+Cf: [[4619   43]
+ [  58   44]]
+Valid loss:0.0835
+Val metric mean prob: 0.2898
+Best metric at: 0.4730 0.4690  0.6704
+Cf: [[4651   11]
+ [  67   35]]
+Valid loss:0.0847
+Val metric mean prob: 0.2656
+Best metric at: 0.4912 0.3810  0.7030
+Cf: [[4635   27]
+ [  60   42]]
+Valid loss:0.0844
+Val metric mean prob: 0.2916
+Best metric at: 0.4839 0.3260  0.7164
+Cf: [[4623   39]
+ [  57   45]]
+Valid loss:0.0889
+Val metric mean prob: 0.2566
+Best metric at: 0.4699 0.3960  0.6885
+Cf: [[4637   25]
+ [  63   39]]
+Valid loss:0.0871
+Val metric mean prob: 0.2648
+Best metric at: 0.4804 0.3670  0.7071
+Cf: [[4628   34]
+ [  59   43]]
+Valid loss:0.0843
+Val metric mean prob: 0.2688
+Best metric at: 0.4970 0.4190  0.6986
+Cf: [[4640   22]
+ [  61   41]]
+Valid loss:0.0852
+Val metric mean prob: 0.2862
+Best metric at: 0.4821 0.3330  0.7255
+Cf: [[4616   46]
+ [  55   47]]
+Valid loss:0.0826
+Val metric mean prob: 0.2728
+Best metric at: 0.4706 0.4700  0.6749
+Cf: [[4647   15]
+ [  66   36]]
+Valid loss:0.0825
+Val metric mean prob: 0.2664
+Best metric at: 0.4902 0.3070  0.7395
+Cf: [[4610   52]
+ [  52   50]]
+Valid loss:0.0836
+Val metric mean prob: 0.2700
+Best metric at: 0.4852 0.4030  0.6982
+Cf: [[4636   26]
+ [  61   41]]
+Valid loss:0.0836
+Val metric mean prob: 0.2716
+Best metric at: 0.4852 0.4040  0.6982
+Cf: [[4636   26]
+ [  61   41]]
+Valid loss:0.0821
+Val metric mean prob: 0.2751
+Best metric at: 0.4851 0.3050  0.7347
+Cf: [[4611   51]
+ [  53   49]]
+Valid loss:0.0853
+Val metric mean prob: 0.2671
+Best metric at: 0.4941 0.3900  0.7031
+Cf: [[4636   26]
+ [  60   42]]
+Valid loss:0.0863
+Val metric mean prob: 0.2648
+Best metric at: 0.4828 0.3700  0.7027
+Cf: [[4632   30]
+ [  60   42]]
+Valid loss:0.0826
+Val metric mean prob: 0.2800
+Best metric at: 0.4780 0.4440  0.6842
+Cf: [[4643   19]
+ [  64   38]]
+Valid loss:0.0823
+Val metric mean prob: 0.2661
+Best metric at: 0.4656 0.3580  0.7111
+Cf: [[4619   43]
+ [  58   44]]
+Valid loss:0.0837
+Val metric mean prob: 0.2898
+Best metric at: 0.4774 0.4400  0.6797
+Cf: [[4646   16]
+ [  65   37]]
+Valid loss:0.0834
+Val metric mean prob: 0.2608
+Best metric at: 0.4744 0.3060  0.7434
+Cf: [[4600   62]
+ [  51   51]]
+Valid loss:0.0867
+Val metric mean prob: 0.2664
+Best metric at: 0.4912 0.3840  0.7030
+Cf: [[4635   27]
+ [  60   42]]
+Valid loss:0.0826
+Val metric mean prob: 0.2657
+Best metric at: 0.4808 0.3200  0.7391
+Cf: [[4606   56]
+ [  52   50]]
+Valid loss:0.0843
+Val metric mean prob: 0.2731
+Best metric at: 0.4914 0.3820  0.7076
+Cf: [[4632   30]
+ [  59   43]]
+Valid loss:0.0824
+Val metric mean prob: 0.2835
+Best metric at: 0.4805 0.4450  0.6798
+Cf: [[4647   15]
+ [  65   37]]
+Valid loss:0.0815
+Val metric mean prob: 0.2680
+Best metric at: 0.4684 0.4510  0.6793
+Cf: [[4643   19]
+ [  65   37]]
+Valid loss:0.0847
+Val metric mean prob: 0.2631
+Best metric at: 0.4747 0.3470  0.7251
+Cf: [[4613   49]
+ [  55   47]]
+Valid loss:0.0873
+Val metric mean prob: 0.2652
+Best metric at: 0.4941 0.4140  0.7031
+Cf: [[4636   26]
+ [  60   42]]
+Valid loss:nan
+Val metric mean prob: 0.0000
+Best metric at: 0.0000 0.0000  0.0000
+Cf: None
+Valid loss:0.0853
+Val metric mean prob: 0.2609
+Best metric at: 0.4908 0.4320  0.6938
+Cf: [[4641   21]
+ [  62   40]]
+Valid loss:0.0893
+Val metric mean prob: 0.2544
+Best metric at: 0.4574 0.3320  0.7062
+Cf: [[4619   43]
+ [  59   43]]
+Valid loss:0.0832
+Val metric mean prob: 0.2697
+Best metric at: 0.4842 0.3460  0.7210
+Cf: [[4620   42]
+ [  56   46]]
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Epoch: 1/1
+Date :02/23/2023, 21:42:03
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 1
+Len train df: 44750
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Epoch: 1/1
+Fold: 3
+Len train df: 44752
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Epoch: 1/1
+Fold: 0
+Len train df: 44652
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Date :02/23/2023, 22:00:53
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 0
+Len train df: 44652
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Valid loss:0.0823
+Val metric mean prob: 0.2505
+Valid loss:0.0823
+Val metric mean prob: 0.2505
+Best metric at: 0.4811 0.2440  0.7485
+Cf: [[4605   61]
+ [  49   51]]
+Valid loss:0.0900
+Val metric mean prob: 0.2836
+Best metric at: 0.4691 0.4040  0.6874
+Cf: [[4642   24]
+ [  62   38]]
+Valid loss:0.0868
+Val metric mean prob: 0.2840
+Best metric at: 0.4800 0.3560  0.7065
+Cf: [[4633   33]
+ [  58   42]]
+Valid loss:0.0866
+Val metric mean prob: 0.2809
+Best metric at: 0.4870 0.3150  0.7301
+Cf: [[4620   46]
+ [  53   47]]
+Valid loss:0.0809
+Val metric mean prob: 0.2312
+Best metric at: 0.4789 0.2230  0.7484
+Cf: [[4604   62]
+ [  49   51]]
+Valid loss:0.0864
+Val metric mean prob: 0.2675
+Best metric at: 0.4910 0.3500  0.7022
+Cf: [[4640   26]
+ [  59   41]]
+Valid loss:0.0826
+Val metric mean prob: 0.2560
+Best metric at: 0.4785 0.2610  0.7437
+Cf: [[4607   59]
+ [  50   50]]
+Valid loss:0.0859
+Val metric mean prob: 0.2757
+Best metric at: 0.4848 0.2920  0.7346
+Cf: [[4616   50]
+ [  52   48]]
+Valid loss:0.0810
+Val metric mean prob: 0.2347
+Best metric at: 0.4831 0.2360  0.7439
+Cf: [[4609   57]
+ [  50   50]]
+Valid loss:0.0860
+Val metric mean prob: 0.2815
+Best metric at: 0.4946 0.3200  0.7257
+Cf: [[4626   40]
+ [  54   46]]
+Valid loss:0.0904
+Val metric mean prob: 0.2944
+Best metric at: 0.5000 0.3950  0.7025
+Cf: [[4643   23]
+ [  59   41]]
+Valid loss:0.0855
+Val metric mean prob: 0.2798
+Best metric at: 0.5000 0.3260  0.7259
+Cf: [[4628   38]
+ [  54   46]]
+Valid loss:0.0865
+Val metric mean prob: 0.2837
+Best metric at: 0.4923 0.3040  0.7350
+Cf: [[4619   47]
+ [  52   48]]
+Valid loss:0.0867
+Val metric mean prob: 0.2829
+Best metric at: 0.4898 0.3100  0.7349
+Cf: [[4618   48]
+ [  52   48]]
+Valid loss:0.0810
+Val metric mean prob: 0.2317
+Best metric at: 0.4789 0.2230  0.7484
+Cf: [[4604   62]
+ [  49   51]]
+Valid loss:0.0909
+Val metric mean prob: 0.2986
+Best metric at: 0.4940 0.3860  0.7023
+Cf: [[4641   25]
+ [  59   41]]
+Valid loss:0.0830
+Val metric mean prob: 0.2591
+Best metric at: 0.4804 0.2870  0.7391
+Cf: [[4611   55]
+ [  51   49]]
+Valid loss:0.0829
+Val metric mean prob: 0.2368
+Best metric at: 0.5030 0.3530  0.7073
+Cf: [[4641   25]
+ [  58   42]]
+Valid loss:0.1101
+Val metric mean prob: 0.2002
+Best metric at: 0.4881 0.5050  0.7021
+Cf: [[4639   27]
+ [  59   41]]
+Valid loss:0.0824
+Val metric mean prob: 0.2673
+Best metric at: 0.5087 0.3290  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1035
+Val metric mean prob: 0.1817
+Best metric at: 0.5114 0.4280  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.0863
+Val metric mean prob: 0.2385
+Best metric at: 0.5000 0.3780  0.7166
+Cf: [[4634   32]
+ [  56   44]]
+Valid loss:0.1090
+Val metric mean prob: 0.1966
+Best metric at: 0.4910 0.5010  0.7022
+Cf: [[4640   26]
+ [  59   41]]
+Valid loss:0.0859
+Val metric mean prob: 0.2235
+Best metric at: 0.4949 0.3240  0.7397
+Cf: [[4617   49]
+ [  51   49]]
+Valid loss:0.0837
+Val metric mean prob: 0.2618
+Best metric at: 0.4783 0.3490  0.7157
+Cf: [[4626   40]
+ [  56   44]]
+Valid loss:0.0885
+Val metric mean prob: 0.2096
+Best metric at: 0.4923 0.3440  0.7350
+Cf: [[4619   47]
+ [  52   48]]
+Valid loss:0.0846
+Val metric mean prob: 0.2268
+Best metric at: 0.4947 0.3270  0.7304
+Cf: [[4623   43]
+ [  53   47]]
+Valid loss:0.1035
+Val metric mean prob: 0.1853
+Best metric at: 0.5169 0.4290  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1014
+Val metric mean prob: 0.1848
+Best metric at: 0.5169 0.4190  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1007
+Val metric mean prob: 0.1903
+Best metric at: 0.5137 0.4210  0.7311
+Cf: [[4630   36]
+ [  53   47]]
+Valid loss:0.1060
+Val metric mean prob: 0.1871
+Best metric at: 0.5087 0.4640  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.0946
+Val metric mean prob: 0.1935
+Best metric at: 0.5000 0.3630  0.7400
+Cf: [[4619   47]
+ [  51   49]]
+Valid loss:0.0933
+Val metric mean prob: 0.2042
+Best metric at: 0.5000 0.3740  0.7400
+Cf: [[4619   47]
+ [  51   49]]
+Valid loss:0.1058
+Val metric mean prob: 0.1958
+Best metric at: 0.5083 0.4630  0.7262
+Cf: [[4631   35]
+ [  54   46]]
+Valid loss:0.0990
+Val metric mean prob: 0.1904
+Best metric at: 0.5081 0.4060  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1078
+Val metric mean prob: 0.1912
+Best metric at: 0.4943 0.4760  0.7117
+Cf: [[4635   31]
+ [  57   43]]
+Valid loss:0.1028
+Val metric mean prob: 0.1833
+Best metric at: 0.5169 0.4210  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.0952
+Val metric mean prob: 0.1930
+Best metric at: 0.5027 0.3850  0.7260
+Cf: [[4629   37]
+ [  54   46]]
+Valid loss:0.1021
+Val metric mean prob: 0.1837
+Best metric at: 0.5169 0.4170  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1040
+Val metric mean prob: 0.1829
+Best metric at: 0.5140 0.4240  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1066
+Val metric mean prob: 0.1861
+Best metric at: 0.5198 0.4520  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1123
+Val metric mean prob: 0.2040
+Best metric at: 0.4884 0.5050  0.7068
+Cf: [[4636   30]
+ [  58   42]]
+Valid loss:0.1068
+Val metric mean prob: 0.1873
+Best metric at: 0.5169 0.4540  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1054
+Val metric mean prob: 0.1838
+Best metric at: 0.5193 0.4330  0.7314
+Cf: [[4632   34]
+ [  53   47]]
+Valid loss:0.1078
+Val metric mean prob: 0.1906
+Best metric at: 0.5000 0.4760  0.7119
+Cf: [[4637   29]
+ [  57   43]]
+Valid loss:0.1051
+Val metric mean prob: 0.1829
+Best metric at: 0.5198 0.4380  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Date :02/24/2023, 02:38:09
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 2
+Len train df: 44603
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Valid loss:0.1158
+Val metric mean prob: 0.1778
+Best metric at: 0.4785 0.3990  0.7302
+Cf: [[4609   53]
+ [  56   50]]
+Valid loss:0.1215
+Val metric mean prob: 0.1606
+Best metric at: 0.4767 0.4070  0.7126
+Cf: [[4621   41]
+ [  60   46]]
+Valid loss:0.0954
+Val metric mean prob: 0.2501
+Best metric at: 0.4865 0.4340  0.7086
+Cf: [[4628   34]
+ [  61   45]]
+Valid loss:0.0969
+Val metric mean prob: 0.2299
+Best metric at: 0.5000 0.4210  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1129
+Val metric mean prob: 0.1714
+Best metric at: 0.5161 0.4110  0.7230
+Cf: [[4630   32]
+ [  58   48]]
+Valid loss:0.0942
+Val metric mean prob: 0.2702
+Best metric at: 0.4948 0.4170  0.7221
+Cf: [[4622   40]
+ [  58   48]]
+Valid loss:0.1233
+Val metric mean prob: 0.1587
+Best metric at: 0.4842 0.4390  0.7129
+Cf: [[4624   38]
+ [  60   46]]
+Valid loss:0.0969
+Val metric mean prob: 0.2473
+Best metric at: 0.4699 0.4330  0.6992
+Cf: [[4628   34]
+ [  63   43]]
+Valid loss:0.1051
+Val metric mean prob: 0.1969
+Best metric at: 0.4918 0.4520  0.7088
+Cf: [[4630   32]
+ [  61   45]]
+Valid loss:0.1285
+Val metric mean prob: 0.1527
+Best metric at: 0.4695 0.3950  0.7297
+Cf: [[4605   57]
+ [  56   50]]
+Valid loss:0.0911
+Val metric mean prob: 0.2544
+Best metric at: 0.4894 0.3690  0.7131
+Cf: [[4626   36]
+ [  60   46]]
+Valid loss:0.1023
+Val metric mean prob: 0.2006
+Best metric at: 0.5055 0.4280  0.7138
+Cf: [[4632   30]
+ [  60   46]]
+Valid loss:0.1041
+Val metric mean prob: 0.1943
+Best metric at: 0.5000 0.4170  0.7135
+Cf: [[4630   32]
+ [  60   46]]
+Valid loss:0.1093
+Val metric mean prob: 0.1794
+Best metric at: 0.5000 0.4190  0.7092
+Cf: [[4633   29]
+ [  61   45]]
+Valid loss:0.1009
+Val metric mean prob: 0.2063
+Best metric at: 0.5000 0.4190  0.7223
+Cf: [[4624   38]
+ [  58   48]]
+Valid loss:0.1028
+Val metric mean prob: 0.1930
+Best metric at: 0.5085 0.4190  0.7095
+Cf: [[4636   26]
+ [  61   45]]
+Valid loss:0.1063
+Val metric mean prob: 0.1831
+Best metric at: 0.4973 0.4030  0.7134
+Cf: [[4629   33]
+ [  60   46]]
+Valid loss:0.1067
+Val metric mean prob: 0.1753
+Best metric at: 0.4884 0.4020  0.6955
+Cf: [[4638   24]
+ [  64   42]]
+Valid loss:0.0908
+Val metric mean prob: 0.2427
+Best metric at: 0.5055 0.3420  0.7138
+Cf: [[4632   30]
+ [  60   46]]
+Valid loss:0.1030
+Val metric mean prob: 0.1945
+Best metric at: 0.5143 0.4300  0.7097
+Cf: [[4638   24]
+ [  61   45]]
+Valid loss:0.1188
+Val metric mean prob: 0.1639
+Best metric at: 0.5000 0.4090  0.7267
+Cf: [[4621   41]
+ [  57   49]]
+Valid loss:0.1058
+Val metric mean prob: 0.1864
+Best metric at: 0.5114 0.4260  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1056
+Val metric mean prob: 0.1877
+Best metric at: 0.5114 0.4250  0.7096
+Cf: [[4637   25]
+ [  61   45]]
+Valid loss:0.1184
+Val metric mean prob: 0.1609
+Best metric at: 0.5027 0.4130  0.7137
+Cf: [[4631   31]
+ [  60   46]]
+Valid loss:0.1131
+Val metric mean prob: 0.1726
+Best metric at: 0.5109 0.4180  0.7184
+Cf: [[4631   31]
+ [  59   47]]
+Valid loss:0.0989
+Val metric mean prob: 0.2026
+Best metric at: 0.5000 0.4170  0.7048
+Cf: [[4636   26]
+ [  62   44]]
+Valid loss:0.1052
+Val metric mean prob: 0.1820
+Best metric at: 0.4944 0.4000  0.7045
+Cf: [[4634   28]
+ [  62   44]]
+Valid loss:0.1171
+Val metric mean prob: 0.1633
+Best metric at: 0.5000 0.4150  0.7135
+Cf: [[4630   32]
+ [  60   46]]
+Valid loss:0.0967
+Val metric mean prob: 0.2200
+Best metric at: 0.5027 0.4160  0.7181
+Cf: [[4628   34]
+ [  59   47]]
+Valid loss:0.1182
+Val metric mean prob: 0.1714
+Best metric at: 0.4739 0.3900  0.7300
+Cf: [[4607   55]
+ [  56   50]]
+Valid loss:0.1011
+Val metric mean prob: 0.1995
+Best metric at: 0.5056 0.4210  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Valid loss:0.1081
+Val metric mean prob: 0.1815
+Best metric at: 0.5056 0.4220  0.7094
+Cf: [[4635   27]
+ [  61   45]]
+Date :02/24/2023, 07:24:12
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 0
+Len train df: 44652
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Valid loss:0.0838
+Val metric mean prob: 0.2287
+Valid loss:0.0838
+Val metric mean prob: 0.2287
+Best metric at: 0.4857 0.2910  0.7487
+Cf: [[4607   59]
+ [  49   51]]
+Valid loss:0.0838
+Val metric mean prob: 0.2540
+Best metric at: 0.4804 0.3600  0.7111
+Cf: [[4630   36]
+ [  57   43]]
+Valid loss:0.1087
+Val metric mean prob: 0.1974
+Best metric at: 0.5116 0.4940  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1068
+Val metric mean prob: 0.1930
+Best metric at: 0.5202 0.4740  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.0893
+Val metric mean prob: 0.2304
+Best metric at: 0.4854 0.3390  0.7440
+Cf: [[4610   56]
+ [  50   50]]
+Valid loss:0.0812
+Val metric mean prob: 0.2208
+Best metric at: 0.4804 0.2570  0.7391
+Cf: [[4611   55]
+ [  51   49]]
+Valid loss:0.1024
+Val metric mean prob: 0.1842
+Best metric at: 0.5085 0.4250  0.7216
+Cf: [[4634   32]
+ [  55   45]]
+Valid loss:0.1123
+Val metric mean prob: 0.2041
+Best metric at: 0.4884 0.5070  0.7068
+Cf: [[4636   30]
+ [  58   42]]
+Valid loss:0.1056
+Val metric mean prob: 0.1889
+Best metric at: 0.5172 0.4530  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.0879
+Val metric mean prob: 0.2151
+Best metric at: 0.4898 0.3390  0.7349
+Cf: [[4618   48]
+ [  52   48]]
+Valid loss:0.0976
+Val metric mean prob: 0.2026
+Best metric at: 0.5081 0.4090  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1059
+Val metric mean prob: 0.1893
+Best metric at: 0.5198 0.4550  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1065
+Val metric mean prob: 0.1880
+Best metric at: 0.5169 0.4520  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.0974
+Val metric mean prob: 0.1934
+Best metric at: 0.5081 0.4000  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1089
+Val metric mean prob: 0.1970
+Best metric at: 0.4859 0.4850  0.7114
+Cf: [[4632   34]
+ [  57   43]]
+Valid loss:0.1041
+Val metric mean prob: 0.1890
+Best metric at: 0.5087 0.4520  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1070
+Val metric mean prob: 0.1899
+Best metric at: 0.5169 0.4590  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1022
+Val metric mean prob: 0.1929
+Best metric at: 0.5140 0.4320  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1081
+Val metric mean prob: 0.1935
+Best metric at: 0.5030 0.4970  0.7073
+Cf: [[4641   25]
+ [  58   42]]
+Valid loss:0.1055
+Val metric mean prob: 0.1899
+Best metric at: 0.5198 0.4530  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1112
+Val metric mean prob: 0.2026
+Best metric at: 0.4912 0.5070  0.7069
+Cf: [[4637   29]
+ [  58   42]]
+Valid loss:0.1057
+Val metric mean prob: 0.1893
+Best metric at: 0.5198 0.4520  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1075
+Val metric mean prob: 0.1927
+Best metric at: 0.5140 0.4690  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1049
+Val metric mean prob: 0.1892
+Best metric at: 0.5116 0.4570  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1086
+Val metric mean prob: 0.1960
+Best metric at: 0.4943 0.4920  0.7117
+Cf: [[4635   31]
+ [  57   43]]
+Valid loss:0.1006
+Val metric mean prob: 0.1909
+Best metric at: 0.5165 0.4220  0.7312
+Cf: [[4631   35]
+ [  53   47]]
+Valid loss:0.1071
+Val metric mean prob: 0.1919
+Best metric at: 0.5198 0.4690  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1031
+Val metric mean prob: 0.1844
+Best metric at: 0.5083 0.4200  0.7262
+Cf: [[4631   35]
+ [  54   46]]
+Valid loss:0.1097
+Val metric mean prob: 0.1993
+Best metric at: 0.4910 0.5050  0.7022
+Cf: [[4640   26]
+ [  59   41]]
+Valid loss:0.1079
+Val metric mean prob: 0.1936
+Best metric at: 0.5000 0.4940  0.7072
+Cf: [[4640   26]
+ [  58   42]]
+Valid loss:0.1062
+Val metric mean prob: 0.1897
+Best metric at: 0.5198 0.4590  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1897
+Best metric at: 0.5198 0.4530  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1049
+Val metric mean prob: 0.1884
+Best metric at: 0.5146 0.4600  0.7171
+Cf: [[4639   27]
+ [  56   44]]
+Valid loss:0.1082
+Val metric mean prob: 0.1957
+Best metric at: 0.5000 0.4910  0.7119
+Cf: [[4637   29]
+ [  57   43]]
+Valid loss:0.1066
+Val metric mean prob: 0.1903
+Best metric at: 0.5198 0.4610  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1007
+Val metric mean prob: 0.1925
+Best metric at: 0.5165 0.4250  0.7312
+Cf: [[4631   35]
+ [  53   47]]
+Valid loss:0.1086
+Val metric mean prob: 0.1961
+Best metric at: 0.4971 0.4940  0.7118
+Cf: [[4636   30]
+ [  57   43]]
+Valid loss:0.1036
+Val metric mean prob: 0.1892
+Best metric at: 0.5111 0.4320  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1063
+Val metric mean prob: 0.1904
+Best metric at: 0.5202 0.4650  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1080
+Val metric mean prob: 0.1947
+Best metric at: 0.5053 0.4560  0.7355
+Cf: [[4624   42]
+ [  52   48]]
+Date :02/24/2023, 11:39:14
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+Fold: 0
+Len train df: 44652
+Train bs: 12
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0005
+)
+total_epoch :1
+Valid loss:0.0838
+Val metric mean prob: 0.2287
+Best metric at: 0.4857 0.2910  0.7487
+Cf: [[4607   59]
+ [  49   51]]
+Valid loss:0.0838
+Val metric mean prob: 0.2540
+Best metric at: 0.4804 0.3600  0.7111
+Cf: [[4630   36]
+ [  57   43]]
+Valid loss:0.1087
+Val metric mean prob: 0.1974
+Best metric at: 0.5116 0.4940  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1068
+Val metric mean prob: 0.1930
+Best metric at: 0.5202 0.4740  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.0893
+Val metric mean prob: 0.2304
+Best metric at: 0.4854 0.3390  0.7440
+Cf: [[4610   56]
+ [  50   50]]
+Valid loss:0.0812
+Val metric mean prob: 0.2208
+Best metric at: 0.4804 0.2570  0.7391
+Cf: [[4611   55]
+ [  51   49]]
+Valid loss:0.1024
+Val metric mean prob: 0.1842
+Best metric at: 0.5085 0.4250  0.7216
+Cf: [[4634   32]
+ [  55   45]]
+Valid loss:0.1123
+Val metric mean prob: 0.2041
+Best metric at: 0.4884 0.5070  0.7068
+Cf: [[4636   30]
+ [  58   42]]
+Valid loss:0.1056
+Val metric mean prob: 0.1889
+Best metric at: 0.5172 0.4530  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.0879
+Val metric mean prob: 0.2151
+Best metric at: 0.4898 0.3390  0.7349
+Cf: [[4618   48]
+ [  52   48]]
+Valid loss:0.0976
+Val metric mean prob: 0.2026
+Best metric at: 0.5081 0.4090  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1059
+Val metric mean prob: 0.1893
+Best metric at: 0.5198 0.4550  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1065
+Val metric mean prob: 0.1880
+Best metric at: 0.5169 0.4520  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.0974
+Val metric mean prob: 0.1934
+Best metric at: 0.5081 0.4000  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1089
+Val metric mean prob: 0.1970
+Best metric at: 0.4859 0.4850  0.7114
+Cf: [[4632   34]
+ [  57   43]]
+Valid loss:0.1041
+Val metric mean prob: 0.1890
+Best metric at: 0.5087 0.4520  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1070
+Val metric mean prob: 0.1899
+Best metric at: 0.5169 0.4590  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1019
+Val metric mean prob: 0.1942
+Best metric at: 0.5222 0.4320  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.1008
+Val metric mean prob: 0.1957
+Best metric at: 0.5222 0.4320  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.1009
+Val metric mean prob: 0.1963
+Best metric at: 0.5193 0.4310  0.7314
+Cf: [[4632   34]
+ [  53   47]]
+Valid loss:0.0952
+Val metric mean prob: 0.2253
+Best metric at: 0.4970 0.4560  0.7071
+Cf: [[4639   27]
+ [  58   42]]
+Valid loss:0.1025
+Val metric mean prob: 0.1895
+Best metric at: 0.5111 0.4280  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1042
+Val metric mean prob: 0.1883
+Best metric at: 0.5087 0.4510  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.0988
+Val metric mean prob: 0.1967
+Best metric at: 0.5109 0.4170  0.7310
+Cf: [[4629   37]
+ [  53   47]]
+Valid loss:0.1075
+Val metric mean prob: 0.1910
+Best metric at: 0.4974 0.4500  0.7305
+Cf: [[4624   42]
+ [  53   47]]
+Valid loss:0.1051
+Val metric mean prob: 0.1919
+Best metric at: 0.5172 0.4550  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1011
+Val metric mean prob: 0.1895
+Best metric at: 0.5165 0.4220  0.7312
+Cf: [[4631   35]
+ [  53   47]]
+Valid loss:0.0948
+Val metric mean prob: 0.2063
+Best metric at: 0.5029 0.4150  0.7167
+Cf: [[4635   31]
+ [  56   44]]
+Valid loss:0.1064
+Val metric mean prob: 0.1913
+Best metric at: 0.5227 0.4660  0.7268
+Cf: [[4636   30]
+ [  54   46]]
+Valid loss:0.1029
+Val metric mean prob: 0.1916
+Best metric at: 0.5111 0.4330  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1055
+Val metric mean prob: 0.1894
+Best metric at: 0.5172 0.4520  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1067
+Val metric mean prob: 0.1901
+Best metric at: 0.5198 0.4630  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1079
+Val metric mean prob: 0.1937
+Best metric at: 0.5000 0.4930  0.7072
+Cf: [[4640   26]
+ [  58   42]]
+Valid loss:0.1084
+Val metric mean prob: 0.1950
+Best metric at: 0.4943 0.4860  0.7117
+Cf: [[4635   31]
+ [  57   43]]
+Valid loss:0.1043
+Val metric mean prob: 0.1906
+Best metric at: 0.5114 0.4490  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.0833
+Val metric mean prob: 0.2582
+Best metric at: 0.4780 0.2860  0.7390
+Cf: [[4610   56]
+ [  51   49]]
+Valid loss:0.1011
+Val metric mean prob: 0.1932
+Best metric at: 0.5222 0.4300  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.0999
+Val metric mean prob: 0.1933
+Best metric at: 0.5137 0.4190  0.7311
+Cf: [[4630   36]
+ [  53   47]]
+Valid loss:0.1015
+Val metric mean prob: 0.1936
+Best metric at: 0.5222 0.4310  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.0946
+Val metric mean prob: 0.2054
+Best metric at: 0.5000 0.4140  0.7166
+Cf: [[4634   32]
+ [  56   44]]
+Valid loss:0.1033
+Val metric mean prob: 0.1905
+Best metric at: 0.5085 0.4360  0.7216
+Cf: [[4634   32]
+ [  55   45]]
+Valid loss:0.1015
+Val metric mean prob: 0.1937
+Best metric at: 0.5222 0.4310  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.0993
+Val metric mean prob: 0.1963
+Best metric at: 0.5109 0.4200  0.7310
+Cf: [[4629   37]
+ [  53   47]]
+Valid loss:0.1052
+Val metric mean prob: 0.1928
+Best metric at: 0.5257 0.4560  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1926
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1061
+Val metric mean prob: 0.1932
+Best metric at: 0.5202 0.4670  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1049
+Val metric mean prob: 0.1925
+Best metric at: 0.5172 0.4560  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1062
+Val metric mean prob: 0.1920
+Best metric at: 0.5257 0.4650  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1063
+Val metric mean prob: 0.1923
+Best metric at: 0.5202 0.4690  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1072
+Val metric mean prob: 0.1936
+Best metric at: 0.5140 0.4650  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1054
+Val metric mean prob: 0.1883
+Best metric at: 0.5146 0.4590  0.7171
+Cf: [[4639   27]
+ [  56   44]]
+Valid loss:0.1032
+Val metric mean prob: 0.1900
+Best metric at: 0.5085 0.4350  0.7216
+Cf: [[4634   32]
+ [  55   45]]
+Valid loss:0.1067
+Val metric mean prob: 0.1923
+Best metric at: 0.5198 0.4670  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1051
+Val metric mean prob: 0.1918
+Best metric at: 0.5172 0.4550  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1076
+Val metric mean prob: 0.1953
+Best metric at: 0.5140 0.4700  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1063
+Val metric mean prob: 0.1905
+Best metric at: 0.5202 0.4650  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1052
+Val metric mean prob: 0.1875
+Best metric at: 0.5146 0.4560  0.7171
+Cf: [[4639   27]
+ [  56   44]]
+Valid loss:0.1034
+Val metric mean prob: 0.1925
+Best metric at: 0.5114 0.4490  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1040
+Val metric mean prob: 0.1914
+Best metric at: 0.5114 0.4500  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.0976
+Val metric mean prob: 0.1992
+Best metric at: 0.5081 0.4050  0.7309
+Cf: [[4628   38]
+ [  53   47]]
+Valid loss:0.1081
+Val metric mean prob: 0.1964
+Best metric at: 0.5057 0.4840  0.7168
+Cf: [[4636   30]
+ [  56   44]]
+Valid loss:0.1018
+Val metric mean prob: 0.1936
+Best metric at: 0.5222 0.4310  0.7315
+Cf: [[4633   33]
+ [  53   47]]
+Valid loss:0.1027
+Val metric mean prob: 0.1918
+Best metric at: 0.5193 0.4310  0.7314
+Cf: [[4632   34]
+ [  53   47]]
+Valid loss:0.1007
+Val metric mean prob: 0.1953
+Best metric at: 0.5193 0.4290  0.7314
+Cf: [[4632   34]
+ [  53   47]]
+Valid loss:0.1044
+Val metric mean prob: 0.1928
+Best metric at: 0.5114 0.4540  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1066
+Val metric mean prob: 0.1938
+Best metric at: 0.5233 0.4740  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1062
+Val metric mean prob: 0.1913
+Best metric at: 0.5257 0.4650  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1062
+Val metric mean prob: 0.1912
+Best metric at: 0.5257 0.4640  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1066
+Val metric mean prob: 0.1923
+Best metric at: 0.5172 0.4700  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1071
+Val metric mean prob: 0.1926
+Best metric at: 0.5169 0.4650  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1059
+Val metric mean prob: 0.1915
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1913
+Best metric at: 0.5257 0.4560  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1912
+Best metric at: 0.5257 0.4570  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1061
+Val metric mean prob: 0.1920
+Best metric at: 0.5257 0.4620  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1076
+Val metric mean prob: 0.1953
+Best metric at: 0.5140 0.4700  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1056
+Val metric mean prob: 0.1911
+Best metric at: 0.5257 0.4560  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1050
+Val metric mean prob: 0.1910
+Best metric at: 0.5202 0.4570  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1070
+Val metric mean prob: 0.1930
+Best metric at: 0.5169 0.4660  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1085
+Val metric mean prob: 0.1972
+Best metric at: 0.5116 0.4930  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1074
+Val metric mean prob: 0.1948
+Best metric at: 0.5137 0.4660  0.7311
+Cf: [[4630   36]
+ [  53   47]]
+Valid loss:0.1060
+Val metric mean prob: 0.1925
+Best metric at: 0.5257 0.4630  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1060
+Val metric mean prob: 0.1916
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1048
+Val metric mean prob: 0.1903
+Best metric at: 0.5116 0.4580  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1038
+Val metric mean prob: 0.1883
+Best metric at: 0.5111 0.4330  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1058
+Val metric mean prob: 0.1916
+Best metric at: 0.5287 0.4620  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1068
+Val metric mean prob: 0.1935
+Best metric at: 0.5202 0.4750  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1078
+Val metric mean prob: 0.1959
+Best metric at: 0.5085 0.4790  0.7216
+Cf: [[4634   32]
+ [  55   45]]
+Valid loss:0.1054
+Val metric mean prob: 0.1918
+Best metric at: 0.5227 0.4550  0.7268
+Cf: [[4636   30]
+ [  54   46]]
+Valid loss:0.1071
+Val metric mean prob: 0.1939
+Best metric at: 0.5172 0.4790  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1065
+Val metric mean prob: 0.1932
+Best metric at: 0.5233 0.4720  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1046
+Val metric mean prob: 0.1918
+Best metric at: 0.5143 0.4550  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1060
+Val metric mean prob: 0.1915
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1061
+Val metric mean prob: 0.1921
+Best metric at: 0.5257 0.4630  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1056
+Val metric mean prob: 0.1922
+Best metric at: 0.5287 0.4610  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1069
+Val metric mean prob: 0.1931
+Best metric at: 0.5169 0.4660  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1050
+Val metric mean prob: 0.1918
+Best metric at: 0.5172 0.4560  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1040
+Val metric mean prob: 0.1880
+Best metric at: 0.5111 0.4340  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1036
+Val metric mean prob: 0.1923
+Best metric at: 0.5114 0.4500  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1064
+Val metric mean prob: 0.1931
+Best metric at: 0.5233 0.4730  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1026
+Val metric mean prob: 0.1916
+Best metric at: 0.5165 0.4300  0.7312
+Cf: [[4631   35]
+ [  53   47]]
+Valid loss:0.1054
+Val metric mean prob: 0.1918
+Best metric at: 0.5227 0.4550  0.7268
+Cf: [[4636   30]
+ [  54   46]]
+Valid loss:0.1058
+Val metric mean prob: 0.1911
+Best metric at: 0.5257 0.4570  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1074
+Val metric mean prob: 0.1951
+Best metric at: 0.5140 0.4680  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1060
+Val metric mean prob: 0.1907
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1044
+Val metric mean prob: 0.1876
+Best metric at: 0.5087 0.4510  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1056
+Val metric mean prob: 0.1916
+Best metric at: 0.5257 0.4580  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1068
+Val metric mean prob: 0.1929
+Best metric at: 0.5172 0.4740  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1036
+Val metric mean prob: 0.1914
+Best metric at: 0.5114 0.4480  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1051
+Val metric mean prob: 0.1889
+Best metric at: 0.5116 0.4540  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1064
+Val metric mean prob: 0.1924
+Best metric at: 0.5233 0.4700  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1077
+Val metric mean prob: 0.1959
+Best metric at: 0.5114 0.4820  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1058
+Val metric mean prob: 0.1912
+Best metric at: 0.5257 0.4570  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1060
+Val metric mean prob: 0.1927
+Best metric at: 0.5257 0.4630  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1073
+Val metric mean prob: 0.1950
+Best metric at: 0.5140 0.4680  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1046
+Val metric mean prob: 0.1925
+Best metric at: 0.5143 0.4550  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1070
+Val metric mean prob: 0.1931
+Best metric at: 0.5169 0.4670  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1053
+Val metric mean prob: 0.1915
+Best metric at: 0.5202 0.4590  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1067
+Val metric mean prob: 0.1925
+Best metric at: 0.5172 0.4720  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1062
+Val metric mean prob: 0.1932
+Best metric at: 0.5202 0.4670  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1022
+Val metric mean prob: 0.1920
+Best metric at: 0.5193 0.4300  0.7314
+Cf: [[4632   34]
+ [  53   47]]
+Valid loss:0.1040
+Val metric mean prob: 0.1884
+Best metric at: 0.5111 0.4340  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1058
+Val metric mean prob: 0.1917
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1056
+Val metric mean prob: 0.1912
+Best metric at: 0.5257 0.4560  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1049
+Val metric mean prob: 0.1910
+Best metric at: 0.5143 0.4540  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1064
+Val metric mean prob: 0.1924
+Best metric at: 0.5233 0.4700  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1075
+Val metric mean prob: 0.1957
+Best metric at: 0.5140 0.4700  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1067
+Val metric mean prob: 0.1929
+Best metric at: 0.5202 0.4740  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1036
+Val metric mean prob: 0.1913
+Best metric at: 0.5114 0.4480  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1058
+Val metric mean prob: 0.1923
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1047
+Val metric mean prob: 0.1911
+Best metric at: 0.5143 0.4540  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1062
+Val metric mean prob: 0.1939
+Best metric at: 0.5202 0.4680  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1055
+Val metric mean prob: 0.1915
+Best metric at: 0.5257 0.4580  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1904
+Best metric at: 0.5257 0.4560  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1071
+Val metric mean prob: 0.1943
+Best metric at: 0.5172 0.4800  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1052
+Val metric mean prob: 0.1919
+Best metric at: 0.5172 0.4550  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1065
+Val metric mean prob: 0.1934
+Best metric at: 0.5233 0.4730  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1060
+Val metric mean prob: 0.1911
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1079
+Val metric mean prob: 0.1964
+Best metric at: 0.5087 0.4880  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1039
+Val metric mean prob: 0.1881
+Best metric at: 0.5111 0.4330  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1068
+Val metric mean prob: 0.1937
+Best metric at: 0.5202 0.4760  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1027
+Val metric mean prob: 0.1868
+Best metric at: 0.5111 0.4250  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1060
+Val metric mean prob: 0.1916
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1055
+Val metric mean prob: 0.1907
+Best metric at: 0.5257 0.4540  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1049
+Val metric mean prob: 0.1885
+Best metric at: 0.5116 0.4570  0.7170
+Cf: [[4638   28]
+ [  56   44]]
+Valid loss:0.1062
+Val metric mean prob: 0.1930
+Best metric at: 0.5202 0.4680  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1071
+Val metric mean prob: 0.1941
+Best metric at: 0.5172 0.4800  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1045
+Val metric mean prob: 0.1918
+Best metric at: 0.5143 0.4550  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1057
+Val metric mean prob: 0.1917
+Best metric at: 0.5287 0.4620  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1065
+Val metric mean prob: 0.1932
+Best metric at: 0.5233 0.4720  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1054
+Val metric mean prob: 0.1920
+Best metric at: 0.5257 0.4580  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1074
+Val metric mean prob: 0.1953
+Best metric at: 0.5140 0.4690  0.7265
+Cf: [[4633   33]
+ [  54   46]]
+Valid loss:0.1059
+Val metric mean prob: 0.1921
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1061
+Val metric mean prob: 0.1926
+Best metric at: 0.5227 0.4640  0.7268
+Cf: [[4636   30]
+ [  54   46]]
+Valid loss:0.1059
+Val metric mean prob: 0.1921
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1050
+Val metric mean prob: 0.1926
+Best metric at: 0.5198 0.4540  0.7267
+Cf: [[4635   31]
+ [  54   46]]
+Valid loss:0.1068
+Val metric mean prob: 0.1934
+Best metric at: 0.5202 0.4750  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1065
+Val metric mean prob: 0.1937
+Best metric at: 0.5233 0.4740  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1048
+Val metric mean prob: 0.1931
+Best metric at: 0.5169 0.4510  0.7266
+Cf: [[4634   32]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1927
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1036
+Val metric mean prob: 0.1886
+Best metric at: 0.5111 0.4310  0.7264
+Cf: [[4632   34]
+ [  54   46]]
+Valid loss:0.1052
+Val metric mean prob: 0.1896
+Best metric at: 0.5143 0.4530  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1058
+Val metric mean prob: 0.1910
+Best metric at: 0.5257 0.4570  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1065
+Val metric mean prob: 0.1931
+Best metric at: 0.5233 0.4720  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1070
+Val metric mean prob: 0.1938
+Best metric at: 0.5172 0.4780  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1060
+Val metric mean prob: 0.1919
+Best metric at: 0.5257 0.4620  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1045
+Val metric mean prob: 0.1888
+Best metric at: 0.5087 0.4520  0.7169
+Cf: [[4637   29]
+ [  56   44]]
+Valid loss:0.1056
+Val metric mean prob: 0.1919
+Best metric at: 0.5287 0.4600  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1054
+Val metric mean prob: 0.1919
+Best metric at: 0.5257 0.4580  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1044
+Val metric mean prob: 0.1918
+Best metric at: 0.5143 0.4550  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1066
+Val metric mean prob: 0.1935
+Best metric at: 0.5233 0.4750  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1063
+Val metric mean prob: 0.1935
+Best metric at: 0.5202 0.4680  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1055
+Val metric mean prob: 0.1905
+Best metric at: 0.5257 0.4530  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1058
+Val metric mean prob: 0.1922
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1050
+Val metric mean prob: 0.1913
+Best metric at: 0.5172 0.4560  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1059
+Val metric mean prob: 0.1919
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1059
+Val metric mean prob: 0.1919
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1059
+Val metric mean prob: 0.1920
+Best metric at: 0.5287 0.4640  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1060
+Val metric mean prob: 0.1923
+Best metric at: 0.5257 0.4620  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1043
+Val metric mean prob: 0.1922
+Best metric at: 0.5143 0.4550  0.7218
+Cf: [[4636   30]
+ [  55   45]]
+Valid loss:0.1069
+Val metric mean prob: 0.1940
+Best metric at: 0.5202 0.4780  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1052
+Val metric mean prob: 0.1918
+Best metric at: 0.5172 0.4560  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1063
+Val metric mean prob: 0.1926
+Best metric at: 0.5202 0.4690  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1058
+Val metric mean prob: 0.1925
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1068
+Val metric mean prob: 0.1940
+Best metric at: 0.5233 0.4780  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1054
+Val metric mean prob: 0.1923
+Best metric at: 0.5257 0.4580  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1063
+Val metric mean prob: 0.1925
+Best metric at: 0.5202 0.4680  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1072
+Val metric mean prob: 0.1945
+Best metric at: 0.5172 0.4820  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1051
+Val metric mean prob: 0.1922
+Best metric at: 0.5172 0.4550  0.7219
+Cf: [[4637   29]
+ [  55   45]]
+Valid loss:0.1059
+Val metric mean prob: 0.1923
+Best metric at: 0.5257 0.4610  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1036
+Val metric mean prob: 0.1924
+Best metric at: 0.5114 0.4500  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1066
+Val metric mean prob: 0.1933
+Best metric at: 0.5233 0.4740  0.7221
+Cf: [[4639   27]
+ [  55   45]]
+Valid loss:0.1062
+Val metric mean prob: 0.1916
+Best metric at: 0.5257 0.4640  0.7269
+Cf: [[4637   29]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1914
+Best metric at: 0.5287 0.4610  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1054
+Val metric mean prob: 0.1908
+Best metric at: 0.5202 0.4570  0.7220
+Cf: [[4638   28]
+ [  55   45]]
+Valid loss:0.1046
+Val metric mean prob: 0.1893
+Best metric at: 0.5114 0.4480  0.7217
+Cf: [[4635   31]
+ [  55   45]]
+Valid loss:0.1058
+Val metric mean prob: 0.1922
+Best metric at: 0.5287 0.4630  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1058
+Val metric mean prob: 0.1925
+Best metric at: 0.5287 0.4620  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1923
+Best metric at: 0.5287 0.4620  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Valid loss:0.1057
+Val metric mean prob: 0.1924
+Best metric at: 0.5287 0.4620  0.7270
+Cf: [[4638   28]
+ [  54   46]]
+Date :02/25/2023, 17:40:37
+train transformCompose([
+  VerticalFlip(always_apply=False, p=0.5),
+  ColorJitter(always_apply=False, p=0.5, brightness=[0.8, 1.2], contrast=[0.8, 1.2], saturation=[0.8, 1.2], hue=[-0.2, 0.2]),
+  ShiftScaleRotate(always_apply=False, p=0.5, shift_limit_x=(-0.0625, 0.0625), shift_limit_y=(-0.0625, 0.0625), scale_limit=(-0.050000000000000044, 0.050000000000000044), rotate_limit=(-10, 10), interpolation=1, border_mode=4, value=None, mask_value=None, rotate_method='largest_box'),
+  HorizontalFlip(always_apply=False, p=0.5),
+  Cutout(always_apply=False, p=0.5, num_holes=5, max_h_size=102, max_w_size=102),
+  ToTensorV2(always_apply=True, p=1.0, transpose_mask=False),
+], p=1.0, bbox_params=None, keypoint_params=None, additional_targets={})
+seed: 1
+5 fold
+Fold: 1
+Model name: tf_efficientnetv2_b2
+Len train df: 44750
+Len valid df: 10879
+seed: 1
+5 fold
+Fold: 1
+Model name: tf_efficientnetv2_b2
+Len train df: 44750
+Len valid df: 10879
+seed: 1
+5 fold
+Fold: 1
+Model name: tf_efficientnetv2_b2
+Len train df: 44750
+Len valid df: 10879
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+seed: 1
+5 fold
+Fold: 2
+Model name: tf_efficientnetv2_b2
+Len train df: 44603
+Len valid df: 11012
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+seed: 1
+5 fold
+Fold: 2
+Model name: tf_efficientnetv2_b2
+Len train df: 44603
+Len valid df: 11012
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+seed: 1
+5 fold
+Fold: 2
+Model name: tf_efficientnetv2_b2
+Len train df: 44603
+Len valid df: 11012
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+Valid loss:0.0950
+Val metric mean prob: 0.2665
+Best metric at epoch 1: 0.4925 0.3950  0.7264
+Cf: [[4618   44]
+ [  57   49]]
+seed: 1
+5 fold
+Fold: 2
+Model name: tf_efficientnetv2_b2
+Len train df: 44603
+Len valid df: 11012
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+seed: 1
+5 fold
+Fold: 2
+Model name: tf_efficientnetv2_b2
+Len train df: 44603
+Len valid df: 11012
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+Valid loss:0.0950
+Val metric mean prob: 0.2770
+Best metric at epoch 1: 0.5251 0.0010  0.7189
+Cf: [[4636   26]
+ [  59   47]]
+seed: 1
+5 fold
+Fold: 1
+Model name: tf_efficientnetv2_b2
+Len train df: 44750
+Len valid df: 10879
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+Valid loss:0.0812
+Val metric mean prob: 0.2532
+Best metric at epoch 1: 0.4571 0.0010  0.6925
+Cf: [[4629   33]
+ [  62   40]]
+seed: 1
+5 fold
+Fold: 1
+Model name: tf_efficientnetv2_b2
+Len train df: 44750
+Len valid df: 10879
+Train bs: 12
+Model
+optimizer: AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    eps: 1e-08
+    foreach: None
+    initial_lr: 0.0001
+    lr: 0.0
+    maximize: False
+    weight_decay: 0.0004
+)
+total_epoch :15
+Warmup: 1
+Valid loss:0.0818
+Val metric mean prob: 0.2533
+Best metric at epoch 1: 0.4571 0.0010  0.6925
+Cf: [[4629   33]
+ [  62   40]]
